@@ -1,0 +1,35 @@
+# Total line 30
+# Last updated Mon 01/09/2023  5:37:48.44
+# -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/configuration\.ls\.apple\.com\/config\/defaults(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
+^https?:\/\/direction2\.is\.autonavi\.com\/direction$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/dispatcher\.is\.autonavi\.com\/dispatcher$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gsp-ssl\.ls\.apple\.com\/directions\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gsp-ssl\.ls\.apple\.com\/dispatcher\.arpc$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.response.js
+^https?:\/\/gspe12-cn-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe12-ssl\.ls\.apple\.com\/traffic(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe19-cn-ssl\.ls\.apple\.com\/tiles(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe19-ssl\.ls\.apple\.com\/tile\.vf(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/config\/announcements(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/gspe35-ssl\.ls\.apple\.(com|cn)\/geo_manifest\/dynamic\/config(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Location.request.js
+^https?:\/\/news-(edge|events)\.apple\.com\/(v1\/configs|analyticseventsv2\/async)(\?.*)?$ url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
+^https?:\/\/news-client-search\.apple\.com\/v1\/search(\?.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
+^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$ url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.request.js
+^https?:\/\/testflight\.apple\.com\/(.+)(\?.*)?$ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.response.js
+^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
+^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.response.js
+^https?:\/\/weather-data\.apple\.com\/(v1|v2|v3)\/availability\/.* url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Availability.request.js
+^https?:\/\/weather-data\.apple\.com\/(v1|v2|v3)\/availability\/.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Availability.response.js
+^https?:\/\/weather-data\.apple\.com\/(v1|v2|v3)\/weather\/.* url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.response.js
+^https?:\/\/weather-map2?\.apple\.com\/(v1|v2)\/mapOverlay\/\w+(\?.*country=CN.*)?$ url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Weather.Map.request.js
+
+hostname=api*.smoot.apple.cn,api*.smoot.apple.com,configuration.ls.apple.com,direction2.is.autonavi.com,dispatcher.is.autonavi.com,gsp-ssl.ls.apple.com,gspe1-ssl.ls.apple.com,gspe19-cn-ssl.ls.apple.com,gspe19-ssl.ls.apple.com,gspe35-ssl.ls.apple.com,news-assets.apple.com,news-client-search.apple.com,news-client.apple.com,news-edge.apple.com,news-events.apple.com,rap.is.autonavi.com,testflight.apple.com,uts-api.itunes.apple.com,weather-data.apple.com,weather-edge.apple.com,weather-map.apple.com,weather-map2.apple.com,

@@ -1,0 +1,31 @@
+# Total line 26
+# Last updated Mon 01/09/2023  5:37:51.23
+# -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
+
+((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
+(\/Videos\/\d+\/stream\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/.+&filename) url script-response-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_file_rename.js
+\/Videos\/\d+\/stream\/.+\?.+ url script-request-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_path_rename.js
+^https?:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/CamscannerProCrack.js
+^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/MeiTuXiuXiu.js
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ne|\/a\.p|v\d\/api\/(user\/in|pay\/vi)|\w{3}\/v\d\/user\/vi|\w{3}\/spi\/ms|\w{3}\/v\d\/the|\w{3}\/enc\/use) url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/KuWoMusicProCrack.js
+^https?:\/\/.*(kuwo|lrts).*(music\.pay\?ui) url script-request-header https://raw.githubusercontent.com/ddgksf/Scripts/dev/KuWoMusicProCrack.js
+^https?:\/\/.*\.aoscdn\.com\/base\/vip\/client\/authorizations$ url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/ApowersoftProCrack.js
+^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/TopwidgetsProCrack.js
+^https?:\/\/[a-z-]*account\.wps\.c(n|om)(:\d+|)\/api\/users url script-response-body https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js
+^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/BybutterProCrack.js
+^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/PicsartProCrack.js
+^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/JianXunProCrack.js
+^https?:\/\/app\.yiyan\.art\/yiyan\/ url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/YiYanProCrack.js
+^https?:\/\/appraven\.net\/AppRaven\/(app|social|buy) url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/AppravenProCrack.js
+^https?:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/ClarityProCrack.js
+^https?:\/\/ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/CaiXinZhouKanProCrack.js
+^https?:\/\/lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/XiChuangZhuProCrack.js
+^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/unlock.js
+^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/BaiDuCloudProCrack.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/ddgksf/Scripts/dev/NicegramProCrack.js
+^https?:\/\/server.yoyiapp.com/fimo-user/user$ url script-response-body https://raw.githubusercontent.com/ddgksf/Scripts/dev/FimoProCrack.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https?:\/\/upos-hz-mirrorakam\.akamaized\.net\/(.*) url 302 https://upos-sz-mirrorcos.bilivideo.com/$1
+^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url response-body vipType": 0 response-body vipType": 1024
+
+hostname=*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.mb3admin.com,*.plusmedia.site,*.xiuxiu.meitu.com,*kuwo*,*lrts*,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api4.bybutter.com,app.yiyan.art,appraven.net,claritywallpaper.com,gateway.caixin.com,ipadcms.caixin.com,lchttpapi.xczim.com,notability.com,pan.baidu.com,restore-access.indream.app,server.yoyiapp.com,spclient.wg.spotify.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,
