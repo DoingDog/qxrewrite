@@ -1,5 +1,5 @@
-# Total line 1645
-# Last updated Tue 09/12/2023 22:02:04.49
+# Total line 1646
+# Last updated Wed 09/13/2023 22:02:43.15
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -314,7 +314,7 @@
 ^https?:\/\/182\.254\.118\.119\/d url reject
 ^https?:\/\/182\.256\.116\.116\/d url reject
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject
-^https?:\/\/2023.09.10/v2.0.348 url reject-200
+^https?:\/\/2023.09.13/v2.0.349 url reject-200
 ^https?:\/\/203\.107\.1\.65\/\d+\/resolve url reject
 ^https?:\/\/203\.107\.1\.66\/\d+\/resolve url reject
 ^https?:\/\/203\.209\.230\.39\/squery url reject
@@ -977,6 +977,7 @@
 ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig url reject
 ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show url reject
 ^https?:\/\/gateway\.abite\.com/cotti-capi/customer/position/list\?code\=cotti-launch-window url reject-dict
+^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?/fsda/app/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
