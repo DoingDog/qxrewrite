@@ -1,5 +1,5 @@
-# Total line 65
-# Last updated Tue 09/19/2023 22:02:42.70
+# Total line 63
+# Last updated Wed 09/20/2023 22:02:51.32
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
@@ -21,7 +21,6 @@
 ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/PicsartProCrack.js
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/JianXunProCrack.js
 ^https?:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
-^https?:\/\/app\.bili(bili|api)\.(com|net)\/x\/resource\/show\/tab\/v2(\?.+)?$ url script-response-body https://raw.githubusercontent.com/BiliUniverse/Enhanced/main/js/BiliBili.Enhanced.response.js
 ^https?:\/\/app\.yiyan\.art\/yiyan\/ url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/YiYanProCrack.js
 ^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/page\/cells url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/setting url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
@@ -41,7 +40,7 @@
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?newver url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?ui url script-request-header https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/BaiDuCloudProCrack.js
-^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Nicegram.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Nicegram.js
 ^https?:\/\/restore-access\.indream\.app\/restoreAccess\?id=\d{5,10} url echo-response text/json echo-response https://raw.githubusercontent.com/ddgksf2013/dev/main/NicegramProCrack.js
 ^https?:\/\/rich\.kuwo\.cn\/AdService url reject-200
 ^https?:\/\/searchrecterm\.kuwo\.cn\/recterm\.s url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
@@ -51,7 +50,6 @@
 ^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 ^https?:\/\/sub\.store url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
 ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
-^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*" request-body storefrontId" : "143441-1,29"
 ^https?:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 ^https?:\/\/upos-hz-mirrorakam\.akamaized\.net\/(.*) url 302 https://upos-sz-mirrorcos.bilivideo.com/$1
 ^https?:\/\/v2\.appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
