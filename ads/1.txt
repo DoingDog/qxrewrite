@@ -1,5 +1,5 @@
-# Total line 1298
-# Last updated Tue 10/03/2023 22:02:59.92
+# Total line 1299
+# Last updated Wed 10/04/2023 22:02:53.51
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -294,7 +294,7 @@
 ^https?:\/\/182\.256\.116\.116\/d url reject
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject
-^https?:\/\/2023.09.29/v2.0.353 url reject-200
+^https?:\/\/2023.10.04/v2.0.355 url reject-200
 ^https?:\/\/203\.107\.1\.65\/\d+\/resolve url reject
 ^https?:\/\/203\.107\.1\.66\/\d+\/resolve url reject
 ^https?:\/\/203\.209\.230\.39\/squery url reject
@@ -962,6 +962,7 @@
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject
 ^https?:\/\/m\.ctrip\.com/restapi/[\w/]+tripAds url reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/13916\/scjson\/tripAds url reject-200
+^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/\d+\/scjson\/tripAds url reject
 ^https?:\/\/m\.lkcoffee\.com\/capi\/resource\/m\/growUp\/main url response-body "popTitle":".+?" response-body "popTitle":""
 ^https?:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page url response-body \{.+\} response-body {"status":"SUCCESS"}
 ^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d url reject
