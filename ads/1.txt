@@ -1,5 +1,5 @@
-# Total line 1304
-# Last updated Wed 10/11/2023 22:02:48.49
+# Total line 1303
+# Last updated Thu 10/12/2023 22:02:56.51
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -1247,7 +1247,6 @@
 ^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d+\/loadInfo? url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 ^https?:\/\/wmapi\.meituan\.com\/api\/v\d\/startpicture url reject
-^https?:\/\/www.xvideos.com/zoneload.* url reject
 ^https?:\/\/www1.elecfans.com\/www\/delivery\/ url reject
 ^https?:\/\/www1\.elecfans\.com\/www\/delivery\/ url reject
 ^https?:\/\/www\.(btbdys|bdys(01|02|03|10))\.com\/(?!(.*(obj|lines|verifyCode|member|zzzzz|cdn-cgi|js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
@@ -1268,7 +1267,7 @@
 ^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/ads/ url reject
 ^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/system_service/splash_config url reject
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads url reject-dict
-^https?:\/\/www\.xvideos\.com\/(?!(.*(api|cdn-cgi|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
+^https?:\/\/www\.xvideos\.com\/(?!(.*(api|my|cdn-cgi|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.zhihu\.com/api/v\d/answers/\d+/recommendations url reject
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/answers\/\d+\/recommendations url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 ^https?:\/\/www\.zhihu\.com\/api\/v4\/cmmunity-ad url reject-200
