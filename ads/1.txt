@@ -1,5 +1,5 @@
-# Total line 1325
-# Last updated Thu 10/26/2023 22:02:46.48
+# Total line 1324
+# Last updated Fri 10/27/2023 22:02:44.56
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -780,8 +780,8 @@
 ^https?:\/\/e\.dangdang\.com/media/api\d\.go\?action=getDeviceStartPage url reject
 ^https?:\/\/e\.dangdang\.com\/.+?getDeviceStartPage url reject
 ^https?:\/\/easyreadfs\.nosdn\.127\.net\/ad-material\/ url reject
-^https?:\/\/edith\.xiaohongshu\.com/api/sns/v1/system_service/config\? url reject-dict
-^https?:\/\/edith\.xiaohongshu\.com/api/sns/v2/system_service/splash_config$ url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/config\? url reject-200
+^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/splash_config url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\/categories url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/homefeed\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/redbook_json.js
@@ -1286,8 +1286,7 @@
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad url reject
 ^https?:\/\/www\.tz659\.com\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.wnacg\.com\/(?!(.*(onclick|cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
-^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/ads/ url reject
-^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/system_service/splash_config url reject
+^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/(tag/)?ads url reject-200
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads url reject-dict
 ^https?:\/\/www\.xvideos\.com\/(?!(.*(api|my|cdn-cgi|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.zhihu\.com/api/v\d/answers/\d+/recommendations url reject
