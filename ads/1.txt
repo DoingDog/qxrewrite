@@ -1,5 +1,5 @@
 # Total line 1323
-# Last updated Sat 10/28/2023 22:02:36.85
+# Last updated Sun 10/29/2023 22:02:47.28
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -223,6 +223,7 @@
 ^https?:\/\/.*\.pipix\.com\/bds\/(feed\/stream|comment\/cell_reply|cell\/cell_comment|cell\/detail|ward\/list|user\/favorite|user\/cell_coment|user\/cell_userfeed|user\/publish_list) url script-response-body https://gist.githubusercontent.com/ddgksf2013/bb1dadbd32f67c68772caebcc70b0a33/raw/pipixia.adblock.js
 ^https?:\/\/.*\.xima.*\.com/mobile-user/minorProtection/pop url reject
 ^https?:\/\/.*\.xima.*\.com\/(dog-portal\/checkOld|(child-mobile\/child|aged-mobile\/aged)\/mode\/query) url reject
+^https?:\/\/.*\.xima.*\.com\/(hub)?guideWord url reject
 ^https?:\/\/.*\.xima.*\.com\/api\/v\d\/adRealTime url reject
 ^https?:\/\/.*\.xima.*\.com\/butler-portal\/versionCheck url reject
 ^https?:\/\/.*\.xima.*\.com\/chaos-notice-web\/v1\/message\/preview\/list url reject
@@ -233,7 +234,6 @@
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/isShowUserGiftPendant url reject
 ^https?:\/\/.*\.xima.*\.com\/discovery-feed\/v\d\/mix url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/ximalaya_json.js
 ^https?:\/\/.*\.xima.*\.com\/focus-mobile\/focusPic url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/ximalaya_json.js
-^https?:\/\/.*\.xima.*\.com\/guideWord url reject
 ^https?:\/\/.*\.xima.*\.com\/hotWord url reject
 ^https?:\/\/.*\.xima.*\.com\/mobile-playpage\/view\/ url reject
 ^https?:\/\/.*\.xima.*\.com\/mobile-user\/unread url reject
