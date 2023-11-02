@@ -1,5 +1,5 @@
-# Total line 1324
-# Last updated Wed 11/01/2023 22:02:45.65
+# Total line 1322
+# Last updated Thu 11/02/2023 22:02:37.40
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -305,8 +305,6 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject
 ^https?:\/\/2023.10.29/v2.0.363 url reject-200
-^https?:\/\/203\.107\.1\.65\/\d+\/resolve url reject
-^https?:\/\/203\.107\.1\.66\/\d+\/resolve url reject
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
