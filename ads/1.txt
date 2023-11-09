@@ -1,5 +1,5 @@
 # Total line 1322
-# Last updated Wed 11/08/2023 22:02:48.73
+# Last updated Thu 11/09/2023 22:02:49.19
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -304,7 +304,7 @@
 ^https?:\/\/182\.256\.116\.116\/d url reject
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject
-^https?:\/\/2023.10.29/v2.0.363 url reject-200
+^https?:\/\/2023.11.09/v2.0.365 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -394,7 +394,7 @@
 ^https?:\/\/amdc\.m\.taobao\.com url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/amdc.js
 ^https?:\/\/amdc\.m\.youku\.com url reject-200
 ^https?:\/\/anime1\.me\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
-^https?:\/\/ap\.dongqiudi\.com\/plat\/v url reject
+^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 url echo-response text/json echo-response https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js
 ^https?:\/\/apapia-sqk\.manmanbuy\.com\/index_json\.ashx url response-body splashAD response-body ddgksf2013
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/ url reject
 ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject
