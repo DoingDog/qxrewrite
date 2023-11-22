@@ -1,5 +1,5 @@
 # Total line 1323
-# Last updated Tue 11/21/2023 22:03:40.97
+# Last updated Wed 11/22/2023 22:01:55.04
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
