@@ -1,5 +1,5 @@
 # Total line 63
-# Last updated Wed 11/22/2023 22:02:00.57
+# Last updated Thu 11/23/2023 22:03:28.89
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
@@ -28,7 +28,7 @@
 ^https?:\/\/boxjs\.(com|net) url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
 ^https?:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/ClarityProCrack.js
 ^https?:\/\/hotword\.kuwo\.cn\/hotword\.s url reject-dict
-^https?:\/\/ipadcms.caixin.com/tmp/articles/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CaiXinZhouKanProCrack.js
+^https?:\/\/ipadcms.caixin.com/tmp/articles url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CaiXinZhouKanProCrack.js
 ^https?:\/\/lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/XiChuangZhuProCrack.js
 ^https?:\/\/m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js
 ^https?:\/\/m.douban.com/movie/subject/.+\?seen=\d url script-request-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js 
