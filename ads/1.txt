@@ -1,5 +1,5 @@
-# Total line 1328
-# Last updated Fri 12/08/2023 22:03:24.72
+# Total line 1327
+# Last updated Sat 12/09/2023 22:02:36.96
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -1080,7 +1080,6 @@
 ^https?:\/\/newclient\.map\.baidu\.com/client/usersystem/home/dynamic url reject
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/crossmarketing url reject-200
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=hw url reject-200
-^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui.*qt=rgc url reject-200
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url reject-200
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/phpui2\/\?qt=ads url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/baidumap.js
 ^https?:\/\/newclient\.map\.baidu\.com\/client\/usersystem\/home\/dynamic url reject-200
