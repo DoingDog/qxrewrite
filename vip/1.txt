@@ -1,5 +1,5 @@
-# Total line 68
-# Last updated Thu 12/14/2023  6:41:08.49
+# Total line 69
+# Last updated Thu 12/14/2023 22:03:44.52
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
@@ -19,7 +19,6 @@
 ^https?:\/\/.*aoscdn\.com\/base\/vip\/v\d\/vips url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/ApowersoftProCrack.js
 ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/TopwidgetsProCrack.js
 ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/BybutterProCrack.js
-^https?:\/\/api\.caiyunapp\.com\/v1\/activity\? url reject-dict
 ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/PicsartProCrack.js
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/JianXunProCrack.js
 ^https?:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
@@ -27,6 +26,7 @@
 ^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/page\/cells url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/appi\.kuwo\.cn\/kuwopay\/vip-tab\/setting url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/biz\.cyapi\.cn\/(p\/v1\/vip_info|v2\/user) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
+^https?:\/\/biz\.cyapi\.cn\/p\/v1\/entries\?pos=2 url reject-dict
 ^https?:\/\/boxjs\.(com|net) url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
 ^https?:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/ClarityProCrack.js
 ^https?:\/\/hotword\.kuwo\.cn\/hotword\.s url reject-dict
@@ -65,9 +65,10 @@
 ^https?:\/\/vip1\.kuwo\.cn\/vip_adv\/ url reject-dict
 ^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url response-body vipType": 0 response-body vipType": 1024
 ^https?:\/\/wapi\.kuwo\.cn\/openapi\/v1\/app\/pasterAdvert url reject-200
-^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url echo-response application/json echo-response https://raw.githubusercontent.com/RuCu6/QuanX/main/Mocks/caiyun.json
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/activity\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
+^https?:\/\/wrapper\.cyapi\.cn\/v1\/nafp\/origin_images\? url script-request-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caiyun.js
 ^https?:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
 ^https?:\/\/www\.bing\.com\/(search|new|chat) Macintosh url-and-header request-header (\r\n)(User-Agent:.+)Version.+(\r\n) request-header $1$2 Chrome/113.0.0.0 Safari/605.1.15 Edg/113.0.1739.0$3
 ^https?:\/\/www\.bing\.com\/(search|new|chat) url request-header (\r\n)(User-Agent:.+Mobile.+)(\r\n) request-header $1$2 EdgiOS/113.0.1739.0$3
 
-hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.mgtv.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.youtube.com,*wps*,*xiaozujian,ap*.intsig.net,api.caiyunapp.com,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,biz.cyapi.cn,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,v2.appraven.net,wallpaper.soutushenqi.com,weixin110.qq.com,wrapper.cyapi.cn,www.bing.com,
+hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.mgtv.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.youtube.com,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,biz.cyapi.cn,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,v2.appraven.net,wallpaper.soutushenqi.com,weixin110.qq.com,wrapper.cyapi.cn,www.bing.com,
