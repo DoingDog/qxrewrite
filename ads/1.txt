@@ -1,5 +1,5 @@
 # Total line 2690
-# Last updated 周五 2023/12/15 21:36:59.66
+# Last updated Fri 12/15/2023 22:02:53.11
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -1400,7 +1400,7 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v10\/search\/notes\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/live_photo\/save url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/note\/(imagefeed|live_photo\/save) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/search\/(banner|hot)_list url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) url reject-dict
@@ -1408,7 +1408,7 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v3\/note\/guide\? url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
@@ -1722,7 +1722,7 @@
 ^https?:\/\/interface3?\.music\.163\.com\/w?eapi\/resource-exposure\/(activity\/config\/get|config) url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/(content\/exposure\/vinyl\/comment\/entrance|v1\/content\/exposure\/comment\/banner)\/get url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/(homepage\/banner\/ad\/get|link\/scene\/show\/resource) url reject-dict
-^https?:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/(resource|strategy)|music\/songshare\/text\/recommend\/get) url reject-dict
+^https?:\/\/interface3\.music\.163\.com\/eapi\/(link\/position\/show\/strategy|music\/songshare\/text\/recommend\/get) url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage\/v7|community\/friends\/fans-group\/artist\/group)\/get url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) url reject-dict
