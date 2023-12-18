@@ -1,5 +1,5 @@
-# Total line 2689
-# Last updated Sun 12/17/2023 22:02:55.92
+# Total line 2692
+# Last updated Mon 12/18/2023 22:03:39.01
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -94,7 +94,6 @@
 ^https?:\/\/(gw|heic)\.alicdn\.com\/imgextra\/\w{2}\/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ url reject
 ^https?:\/\/(img|vthumb)\.killcovid2021\.com.*?\.mp4 url reject
 ^https?:\/\/(ios|android)\.sogou\.com/[^/]+/sogou_input_[^/]+/[^/]+/index\.html url reject
-^https?:\/\/(ipv4|interface3?)\.music\.163.com\/eapi\/(ocpc\/)?ad\/.* url reject-dict
 ^https?:\/\/(ipv4|interface3?)\.music\.163.com\/eapi\/ad url reject-dict
 ^https?:\/\/(jable|(en|\w{2,3})\.jable)\.tv\/(?!(.*(\?mode|cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
@@ -1139,7 +1138,7 @@
 ^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/conf\?ns=daijia-front&name= url reject-dict
 ^https?:\/\/asp\.cntv\.myalicdn\.com\/.+?\?maxbr=850 url reject-200
 ^https?:\/\/assert\.avple\.tv\/file\/avple-images\/ad\.js url reject
-^https?:\/\/assets\.msn\.com\/service\/news\/feed\/pages\/superapp url reject-dict
+^https?:\/\/assets\.msn\.com\/service\/news\/feed\/pages\/startmhp url reject-dict
 ^https?:\/\/assets\.msn\.com\/service\/weather\/locations\/search url reject-dict
 ^https?:\/\/atrace.chelaile.net.cn\/adpub\/ url reject
 ^https?:\/\/atrace.chelaile.net.cn\/exhibit\?&adv_image url reject
@@ -1712,6 +1711,7 @@
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/v1\/content\/exposure\/comment url reject-dict
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/vipcenter/tspopup\/get url reject-dict
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?eapi\/resource-exposure\/config url reject-dict
+^https?:\/\/interface3?\.music\.163.com\/e?api\/(ocpc\/)?ad\/.* url reject-dict
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/(comment\/(feed\/inserted|hotcomment\/collect|tips\/v2\/get)|v\d\/content\/exposure\/comment\/banner) url reject-dict
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/(strategy|resource)|scene\/show)) url reject-dict
 ^https?:\/\/interface3?\.music\.163.com\/eapi\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) url reject-dict
@@ -1733,6 +1733,7 @@
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/mine\/applet\/redpoint url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/mlog\/vinyl\/story\/list url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/resniche\/position\/play\/new\/get url reject-dict
+^https?:\/\/interface3\.music\.163\.com\/eapi\/sp\/flow\/popup\/query url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/voice\/play\/page\/ad\/info url reject-dict
 ^https?:\/\/interface3\.music\.163\.com\/eapi\/zone\/songplay\/entry\/get url reject-dict
 ^https?:\/\/interface\.aomiapp\.com\/aomi-ads url reject
@@ -2659,8 +2660,10 @@
 ^https?:\/\/you\.163\.com/ url 302 https://you.163.com/
 ^https?:\/\/you\.163\.com\/ url 302 https://you.163.com/
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? url script-request-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.beta.js
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? url script-request-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube/request.js
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence)\? url script-request-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/YouTube/youtube.request.beta.proto.js
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.beta.js
+^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/youtube/response.js
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/YouTube/youtube.response.beta.proto.js
 ^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage url reject
 ^https?:\/\/yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result url reject-dict
