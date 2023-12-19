@@ -1,5 +1,5 @@
-# Total line 2692
-# Last updated Mon 12/18/2023 22:03:39.01
+# Total line 2693
+# Last updated Tue 12/19/2023 22:02:02.77
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -1406,7 +1406,7 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/surprisebox\/(get_style|open|submit_action) url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v1\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/(note\/widgets|user\/followings\/followfeed) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/note\/widgets url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v2\/system_service\/splash_config$ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
@@ -1415,6 +1415,7 @@
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/followfeed\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v4\/search\/(hint|trending)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v5\/recommend\/user\/follow_recommend\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v6\/homefeed\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/home_guide url reject-dict
