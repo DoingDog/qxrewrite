@@ -1,5 +1,5 @@
 # Total line 72
-# Last updated Sat 01/13/2024 22:02:53.43
+# Last updated Sun 01/14/2024 22:02:54.63
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
@@ -17,6 +17,7 @@
 ^https?:\/\/.*\.(kuwo|lrts)\.(cn|me)\/a\.p url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/.*\.kuwo\.cn\/v2\/api\/pay\/vip\/extraVipStatus url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/.*aoscdn\.com\/base\/vip\/v\d\/vips url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/ApowersoftProCrack.js
+^https?:\/\/.*appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
 ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FocosProCrack.js
 ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/TopwidgetsProCrack.js
 ^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/YangJiBaoProCrack.js
@@ -59,7 +60,6 @@
 ^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
 ^https?:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 ^https?:\/\/upos-hz-mirrorakam\.akamaized\.net\/(.*) url 302 https://upos-sz-mirrorcos.bilivideo.com/$1
-^https?:\/\/v2\.appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/activity\/kwMemberDay url reject-200
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/enc\/user\/vip\?op=ui url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
 ^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/theme url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/kuwomusic.js
@@ -74,4 +74,4 @@
 ^https?:\/\/www\.bing\.com\/(search|new|chat) Macintosh url-and-header request-header (\r\n)(User-Agent:.+)Version.+(\r\n) request-header $1$2 Chrome/113.0.0.0 Safari/605.1.15 Edg/113.0.1739.0$3
 ^https?:\/\/www\.bing\.com\/(search|new|chat) url request-header (\r\n)(User-Agent:.+Mobile.+)(\r\n) request-header $1$2 EdgiOS/113.0.1739.0$3
 
-hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.mgtv.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,biz.cyapi.cn,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,v2.appraven.net,wallpaper.soutushenqi.com,weixin110.qq.com,wrapper.cyapi.cn,www.bing.com,
+hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.mgtv.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*appraven.net,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,biz.cyapi.cn,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,weixin110.qq.com,wrapper.cyapi.cn,www.bing.com,
