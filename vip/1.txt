@@ -1,12 +1,10 @@
-# Total line 73
-# Last updated Thu 02/08/2024 22:03:04.31
+# Total line 71
+# Last updated Fri 02/09/2024  5:31:32.92
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
 (\/Videos\/\d+\/stream\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/.+&filename) url script-response-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_file_rename.js
 \/Videos\/\d+\/stream\/.+\?.+ url script-request-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_path_rename.js
-^http[s]?:\/\/.*mgtv\.com/(client\/dynamic_entry|v8\/video\/getSource|GetUserInfo|v3\/module\/list|credits\/url).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTV.js
-^http[s]?:\/\/mobile\.api\.mgtv\.com\/v[0-9]\/(playlist|video\/album|video\/relative|video\/list).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Scripts/main/MGTK.js
 ^https?:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CamscannerProCrack.js
 ^https?:\/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
 ^https?:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
@@ -75,4 +73,4 @@
 ^https?:\/\/www\.bing\.com\/(search|new|chat) Macintosh url-and-header request-header (\r\n)(User-Agent:.+)Version.+(\r\n) request-header $1$2 Chrome/113.0.0.0 Safari/605.1.15 Edg/113.0.1739.0$3
 ^https?:\/\/www\.bing\.com\/(search|new|chat) url request-header (\r\n)(User-Agent:.+Mobile.+)(\r\n) request-header $1$2 EdgiOS/113.0.1739.0$3
 
-hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.cyapi.cn,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.mgtv.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*appraven.net,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,weixin110.qq.com,www.bing.com,
+hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.cyapi.cn,*.emby.wtf,*.jmsooo.com,*.kuwo.cn,*.lrts.me,*.mb3admin.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*appraven.net,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,license.enpass.io,m.douban.com,mapi.weibo.com,mb3admin.com,mobile.flightradar24.com,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,weixin110.qq.com,www.bing.com,
