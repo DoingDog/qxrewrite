@@ -1,5 +1,5 @@
-# Total line 2764
-# Last updated Fri 02/09/2024 22:02:27.06
+# Total line 2768
+# Last updated Sat 02/10/2024 22:02:42.21
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 (^https?://app\.biliintl\.com/(x/)?(intl|dm|reply|history|v\d/(fav|msgfeed)).+?)(&s_locale=zh-Hans_[A-Z]{2})(.+?)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$6&sim_code=51503$8
@@ -472,6 +472,7 @@
 ^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 ^https?:\/\/acs\.m\.taobao\.com/gw/mtop\.alibaba\.advertisementservice\.getadv/ url reject-200
 ^https?:\/\/acs\.m\.taobao\.com/gw/mtop\.alimama\.etao\.config\.query/.+?etao_advertise url reject-200
+^https?:\/\/acs\.m\.taobao\.com/gw/mtop\.damai\.wireless\.home\.welcome/ url reject-200
 ^https?:\/\/acs\.m\.taobao\.com/gw/mtop\.etao\.noah\.query/.+tao_splash url reject-200
 ^https?:\/\/acs\.m\.taobao\.com/gw/mtop\.film\.mtopadvertiseapi\.(queryadvertise|queryloadingbanner)/ url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject
@@ -813,6 +814,7 @@
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v1\/ecommerce-user\/get_shopping_info\? url reject-dict
 ^https?:\/\/api\.live\.bilibili\.com\/xlive\/e-commerce-interface\/v\d\/ecommerce-user\/get_shopping_info\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bilibili_json.js
 ^https?:\/\/api\.m\.jd.com/client\.action\?functionId=(start|queryMaterialAdverts) url reject
+^https?:\/\/api\.m\.jd.com/client\.action\?functionId=home_launchConfig url reject
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=(start|queryMaterialAdverts) url reject
 ^https?:\/\/api\.m\.jd.com\/client\.action\?functionId=queryMaterialAdverts url reject
 ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/startup.js
@@ -2020,6 +2022,7 @@
 ^https?:\/\/mappsv5\.caixin\.com\/articlev5\/\d+\/\d+\.json url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
 ^https?:\/\/mappsv5\.caixin\.com\/channelv5\/article_ad_ios_info\.json url reject-dict
 ^https?:\/\/mbank\.grcbank\.com\/ydyh\/resources\/startpage\/.*.(jpg|png) url reject-200
+^https?:\/\/mbasecc\.bas\.cmbchina\.com/Edge/api/mlife\.clientface\.clientservice\.api\.advertiseService/preCacheAdvertiseSec url reject
 ^https?:\/\/mbasecc\.bas\.cmbchina\.com\/Edge\/api\/mlife\.clientface\.clientservice\.api\.advertiseService\/preCacheAdvertiseSec url reject-dict
 ^https?:\/\/mbd\.baidu\.com\/ccs\/v1\/start\/confsync\?appname=baidu_input url reject-dict
 ^https?:\/\/mbd\.baidu\.com\/newspage\/api\/getmobads\?page\=landingshare url reject
@@ -2392,6 +2395,7 @@
 ^https?:\/\/shcss\.suning\.com\/shcss-web\/api\/appImage\/queryAppImage\.do url reject-200
 ^https?:\/\/shop-api\.retail\.mi\.com/mtop/navi/skywheel/mishop/splash url reject-dict
 ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject-dict
+^https?:\/\/shopapi\.io\.mi\.com/mtop/mf/resource/homePage/pageConfig url reject
 ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject
 ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
 ^https?:\/\/shopic\.sf-express\.com/crm/mobile/common/flashscreen url reject
