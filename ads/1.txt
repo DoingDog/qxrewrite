@@ -1,5 +1,5 @@
-# Total line 2941
-# Last updated Mon 02/19/2024 22:02:48.77
+# Total line 2943
+# Last updated Tue 02/20/2024 22:02:38.45
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -314,6 +314,7 @@
 ^https?:\/\/.*\.yuxueyuan\.cn\/yxy-api-gateway\/api\/json\/advert\/getsAdStartScreen url reject-200
 ^https?:\/\/.*\/js\/static\/header\/sda\/ppsuma*.js url reject
 ^https?:\/\/.*\/yyting\/advertclient\/ClientAdvertList.action url reject
+^https?:\/\/.*babytree\.com/(plough\.do|go_search\/api\/mobile_search_new\/get_multi_search_default_keywords) url reject-200
 ^https?:\/\/.*bdys.*com\/($|([a-z]+)\/(play\/)?\d+.*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bdys.js
 ^https?:\/\/.*bimi.*net\/($|(vodshow|bangumi|type)\/[0-9a-z-\/]+\/$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/bimi.js
 ^https?:\/\/.*cupfox\.*\/($|[\u4E00-\u9FFFa-zA-Z0-9%=_/-]+$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/cupbox.js
@@ -413,7 +414,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.02.18/v2.0.421 url reject-200
+^https?:\/\/2024.02.20/v2.0.422 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -2061,6 +2062,7 @@
 ^https?:\/\/m\.ibuscloud\.com\/v2\/app\/getStartPage url reject
 ^https?:\/\/m\.lkcoffee\.com\/capi\/resource\/m\/growUp\/main url response-body "popTitle":".+?" response-body "popTitle":""
 ^https?:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page url response-body \{.+\} response-body {"status":"SUCCESS"}
+^https?:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend url reject-200
 ^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d url reject
 ^https?:\/\/m\.prod\.app\.hsbcfts\.com\.cn\/api\/sapp\/biz\/config\/open\/queryappversion\?channelCode= url reject-dict
 ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping url reject-dict
