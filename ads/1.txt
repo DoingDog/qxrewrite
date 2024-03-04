@@ -1,5 +1,5 @@
-# Total line 3092
-# Last updated Sun 03/03/2024 22:02:22.70
+# Total line 3093
+# Last updated Mon 03/04/2024 22:02:59.35
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -421,7 +421,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.03.03/v2.0.435 url reject-200
+^https?:\/\/2024.03.05/v2.0.437 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -936,6 +936,7 @@
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject
 ^https?:\/\/api\.m\.mi\.com\/v\d\/app\/start url reject-200
 ^https?:\/\/api\.maoyan\.com\/sns\/common\/feed\/channel\/v2\/list\.json url reject-dict
+^https?:\/\/api\.mcd\.cn\/bff\/portal\/(richpop|home\/splash) url reject-200
 ^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/hotActivity url reject-dict
 ^https?:\/\/api\.mcd\.cn\/bff\/portal\/home\/splash url reject-200
 ^https?:\/\/api\.mgzf\.com/renter-operation/home/startHomePage url reject
@@ -2593,7 +2594,7 @@
 ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin url reject-200
 ^https?:\/\/res-release\.wuta-cam\.com/json/ads_component_cache\.json url reject
 ^https?:\/\/res-release\.wuta-cam\.com\/json\/ads_component_cache\.json url reject
-^https?:\/\/res.kfc.com.cn\/advertisement\/ url reject-200
+^https?:\/\/res.kfc.com.cn\/(CRM\/kfcad|advertisement\/) url reject-200
 ^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity url reject-dict
 ^https?:\/\/res\.hongyibo\.com\.cn\/os\/gs\/resapi\/activity\/mget\?_t url reject-dict
 ^https?:\/\/res\.kfc\.com.\cn\/advertisement\/ url reject
