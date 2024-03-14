@@ -1,5 +1,5 @@
 # Total line 3141
-# Last updated Wed 03/13/2024 22:03:19.44
+# Last updated Thu 03/14/2024 22:03:00.68
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -435,7 +435,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.03.13/v2.0.448 url reject-200
+^https?:\/\/2024.03.14/v2.0.449 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -1411,7 +1411,7 @@
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/ad\/ url reject
 ^https?:\/\/capis(-\d)?\.didapinche\.com\/adbase url reject
 ^https?:\/\/capis(-slb)?\.didapinche\.com\/ad\/ url reject
-^https?:\/\/capis.*didapinche\.com\/(ad|adbase)\/ url reject-200
+^https?:\/\/capis.*didapinche\.com\/ad\/cx\/startup url reject-200
 ^https?:\/\/cappapi\.alittle-tea\.com\/open\?method=catering\.set\.ad url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/alittle-tea.js
 ^https?:\/\/carapp\.gtmc\.com\.cn\/api\/appgtmc\/homePage\/HomePageAction\/queryHomePageImg\.json url reject-200
 ^https?:\/\/card\.weibo\.com\/article\/m\/aj\/(reward|uvead)\? url reject-dict
@@ -1455,7 +1455,7 @@
 ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ url reject
 ^https?:\/\/cdn\.poizon\.com\/node-common\/.*.jpg url reject-200
 ^https?:\/\/cdn\.sdb\.com\.cn\/bron-coms\/bron-coms\/material-image\/.+.jpg url reject-200
-^https?:\/\/cdn\.sdb\.com\.cn\/mkt\/materiel-issue\/materials\/2024(?!0124|0306).*\.(jpg|png)$ url reject-200
+^https?:\/\/cdn\.sdb\.com\.cn\/mkt\/materiel-issue\/materials\/2024(?!0124|0306|0221|0228|0229|0301).*\.(jpg|png)$ url reject-200
 ^https?:\/\/cdn\.sdb\.com\.cn\/widget\/magic-module-sprite\/general-banner url reject-200
 ^https?:\/\/cdn\.wup\.huya\.com\/launch\/queryHttpDns$ url reject
 ^https?:\/\/cdnfile1\.msstatic\.com\/cdnfile\/appad\/ url reject-img
