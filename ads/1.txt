@@ -1,5 +1,5 @@
-# Total line 3143
-# Last updated Fri 03/15/2024 22:02:25.58
+# Total line 3144
+# Last updated Sat 03/16/2024 22:02:36.06
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -525,7 +525,7 @@
 ^https?:\/\/access\.if\.iqiyi\.com\/3f1\/cards\.iqiyi\.com\/(views_category\/3\.0\/category_home|views_home\/3\.0\/qy_home|waterfall\/3\.0\/feed)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.fc\.recommend\.feedscommondservice url reject-dict
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.hippotown\.tabbar\.info url reject
-^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/response/freshippo.js
+^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.query(index|my)page url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/freshippo.js
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.querysinglepage url reject-200
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.render\.querytabfeedstream url reject-200
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.sg\.querysinglescene url reject-dict
@@ -1557,7 +1557,7 @@
 ^https?:\/\/cube\.elemecdn\.com\/\w\/\w{2}\/\w+mp4\.mp4\? url reject
 ^https?:\/\/cupfox\.app(\/?$|\/([?]|search).*$) url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Cupbox/Cupbox.js
 ^https?:\/\/cupid\.51job\.com\/open\/index\/recommend-infos url reject
-^https?:\/\/cupid\.51job\.com\/open\/noauth\/recommend\/job-tab-dynamic url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/response/51job.js
+^https?:\/\/cupid\.51job\.com\/open\/noauth\/recommend\/job-tab-dynamic url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/51job.js
 ^https?:\/\/customer-app\.sto\.cn\/api\/app\/banner\/banner url reject-dict
 ^https?:\/\/d\.psbc\.com:9091\/mcc\/resources\/[0-9]+\.(jpg|png|jpeg) url reject-200
 ^https?:\/\/d\.smkj33\.top\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
@@ -1689,7 +1689,7 @@
 ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v\d url reject
 ^https?:\/\/emdcadvertise\.eastmoney\.com\/infoService\/v\d url reject-200
 ^https?:\/\/emdcadvise\.eastmoney\.com\/infoAdviseService$ url reject-200
-^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(9ce31|1bf6e|6bd18) url reject-200
+^https?:\/\/enjoy\.cdn-static\.abchina\.com\/yx-engine-web\/file\/download\/(?!7dc2|fe96|cea3|06a8|1b11|d57b|6918|61db|2d58|aa23|) url reject-200
 ^https?:\/\/entities\.caixin\.com\/api\/(dataplus\/promotionHints|public\/push\/appIndex|public\/recommendNews) url reject-dict
 ^https?:\/\/entities\.caixin\.com\/api\/dataplus\/columns url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
 ^https?:\/\/entree-ws\.igetget\.com\/oms\/front\/start\/push url reject-200
@@ -1716,6 +1716,7 @@
 ^https?:\/\/file\.cibfintech\.com\/file\/M0[1-9]{1}\/*\/*\/.*.zip url reject-img
 ^https?:\/\/file\.dian\.so\/c\/leto url reject-dict
 ^https?:\/\/fintechappdr\.cgws\.com\/api\/business-operation\/app\/a\/flash\/window\/get\?type=2 url reject-dict
+^https?:\/\/firefly\.abchina\.com\.cn\/firefly-collection\/Collect url reject-200
 ^https?:\/\/flowplus\.meituan\.net/v\d/\w+/linglong/\d+\.(gif|jpg|mp4) url reject
 ^https?:\/\/flowplus\.meituan\.net\/v1\/mss_\w+\/linglong\/\d+\.jpg url reject-dict
 ^https?:\/\/flowplus\.meituan\.net\/v\d\/\w+\/linglong\/\d+\.(gif|jpg|mp4) url reject
@@ -2311,7 +2312,7 @@
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url reject-200
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg\?posid= url reject-dict
-^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(bdfb4|86fb9|7aa68|62b87|7c7d7) url reject-dict
+^https?:\/\/midc\.cdn-static\.abchina\.com\.cn\/distributecenterimg\/file\/download\/(?!bbc2|f015|1655|0992|a194|d8e2|c513|0ee1|166e|05ca|c882|d5b8|22ed|a0dc|a55a|6f89|3bf9|3c71|52ec|5b62|ve7a|001c|923d|accf|4a10|0bd7|be7a|5b62|5dd6|1f24|006c|775d|bd02|b983|5251|806b|d119|db14|43c9|41d3|8570|2c10|85ea|1435|814e|f422|aec7|738c|d7c8|0538|02b4|fd20|7647|f6ef|07c5|885b|e4cb|685b|30aa|c23b|9603|f27f|eaf8|8011|a5eb|409d|724c|3f2a|e07f|6744|60a6|158c|8ce3) url reject-dict
 ^https?:\/\/middle\.yun\.139\.com\/openapi\/cardConfig\/queryCardInfoV3 url reject-200
 ^https?:\/\/mime\.baidu\.com/v\d/IosStart/getStartInfo$ url reject
 ^https?:\/\/mime\.baidu\.com/v\d/activity/advertisement url reject
@@ -3001,7 +3002,7 @@
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ url reject
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ url reject-200
 ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?version=\d&mobile=yes&module=basicdata&type=forumlist url response-body adv response-body ddgksf2013
-^https?:\/\/www\.flyert\.com\/plugin\.php url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/response/flyert.js
+^https?:\/\/www\.flyert\.com\/plugin\.php url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/flyert.js
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject-200
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* url reject
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/fly.js
