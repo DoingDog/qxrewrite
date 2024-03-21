@@ -1,5 +1,5 @@
-# Total line 3155
-# Last updated Wed 03/20/2024 22:02:51.82
+# Total line 3156
+# Last updated Thu 03/21/2024 22:03:03.84
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -435,7 +435,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.03.17/v2.0.453 url reject-200
+^https?:\/\/2024.03.21/v2.0.454 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -1435,6 +1435,7 @@
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-video\/video\/app\/video\/labelClusterList url reject-dict
 ^https?:\/\/cdb\.meituan\.com\/marketing\/source\/getPageSlotList url reject-dict
 ^https?:\/\/cdke\.youdao\.com\/course3\/recommend\/dict\/startup url reject-dict
+^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn url reject-200
 ^https?:\/\/cdn-evone-ceph\.echargenet\.com\/gw-emas-cdn\/63c4e3b558bb610008969f89 url reject-200
 ^https?:\/\/cdn-oss\.00bang\.cn\/image\/LLB_OSS2FC543D52E7447678660A4D9EC4F6C60\.jpg url reject-200
 ^https?:\/\/cdn-oss\.00bang\.cn\/image\/LLB_OSS32D553B6981546909417BEF3B7A3BC4D\.jpg url reject-200
@@ -2263,7 +2264,7 @@
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Shop\/GetShopItems url reject-dict
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.Read\/ActInfo url reject-200
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.SeasonV\d\/GetSeasonInfo url reject-dict
-^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOffcial url reject-200
+^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/FollowOffcial url script-request-header https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 ^https?:\/\/manga\.bilibili\.com\/twirp\/user\.v\d\.User\/UCenterConf url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/bilibiliManga.js
 ^https?:\/\/mangaapi\.manhuaren\.com/v\d/public/getStartPageAds url reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds url reject
