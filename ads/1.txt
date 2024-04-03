@@ -1,5 +1,5 @@
-# Total line 3179
-# Last updated Tue 04/02/2024 22:03:21.14
+# Total line 3185
+# Last updated Wed 04/03/2024 22:03:07.26
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2297,7 +2297,13 @@
 ^https?:\/\/mapi\.mafengwo\.cn/(travelguide/)?ad/ url reject
 ^https?:\/\/mapi\.mafengwo\.cn\/(travelguide\/)?ad url reject-200
 ^https?:\/\/mapi\.mafengwo\.cn\/ad\/ url reject
+^https?:\/\/mapi\.mafengwo\.cn\/system\/config\/get_alert_config url reject-dict
+^https?:\/\/mapi\.mafengwo\.cn\/system\/config\/get_push_config url reject-dict
+^https?:\/\/mapi\.mafengwo\.cn\/system\/config\/mark_alert_config url reject-dict
+^https?:\/\/mapi\.mafengwo\.cn\/system\/push\/get_local_push_config url reject
+^https?:\/\/mapi\.mafengwo\.cn\/system\/update\/check_update url reject-dict
 ^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/ url reject
+^https?:\/\/mapi\.mafengwo\.cn\/widget\/note\/get_widget_note url reject
 ^https?:\/\/mapi\.sfbest\.com\/brokerservice-server\/cms\/getPositionById.* url reject
 ^https?:\/\/mapi\.sichuanair\.com\/zt\/tribeport\/encrypt_translate_key url reject-200
 ^https?:\/\/mapi\.txcmapp\.com\/api\/open\/atx2\/ad\.php url reject-200
