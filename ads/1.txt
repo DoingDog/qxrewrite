@@ -1,5 +1,5 @@
 # Total line 3201
-# Last updated Sun 04/21/2024 22:02:48.71
+# Last updated Mon 04/22/2024 22:07:46.92
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -734,7 +734,6 @@
 ^https?:\/\/api.juxingclub.com\/app\/config\/h5NativeBar url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
 ^https?:\/\/api.juxingclub.com\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
 ^https?:\/\/api.kkmh.com\/v\d\/(ad|advertisement)\/ url reject-200
-^https?:\/\/api.m.jd.com/client.action\?functionId=lite_advertising url reject
 ^https?:\/\/api.nivodz.com/commercial/incr/WEB/3.2?_ts=1697870082520 url reject
 ^https?:\/\/api.nivodz.com/commercial/incr/WEB/3.2?_ts=1697870082522 url reject
 ^https?:\/\/api.psy-1.com\/cosleep\/startup url reject
@@ -939,6 +938,7 @@
 ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/startup.js
 ^https?:\/\/api\.m\.jd\.com\/api\?functionId=delivery_show url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/jingxiAd.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/jingdong.js
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(deliverLayer|getTabHomeInfo|myOrderInfo|orderTrackBusiness|personinfoBusiness|start|welcomeHome) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(hotWords|hotSearchTerms) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/jd_json.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(searchBoxWord|stationPullService|uniformRecommend[06]) url reject-dict
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=(server|basic)Config url response-body "dnsvip"\:".+" response-body "dnsvip":""
@@ -949,13 +949,13 @@
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=hotWords url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/JD/JD.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush url response-body pushData response-body ddgksf2013
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_SmartPush url response-body pushData response-body random_body
+^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising url reject
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising url response-body jdLiteAdvertisingVO response-body ddgksf2013
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising url response-body jdLiteAdvertisingVO response-body random_body
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=lite_advertising url response-body jdLiteAdvertisingVO response-body rucu6
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-dict
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url reject-img
-^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-200
 ^https?:\/\/api\.m\.jd\.com\/client\.action\?functionId=start$ url reject-array
 ^https?:\/\/api\.m\.jd\.com\/openUpgrade url reject-dict
