@@ -1,5 +1,5 @@
-# Total line 3201
-# Last updated Mon 04/22/2024 22:07:46.92
+# Total line 3202
+# Last updated Tue 04/23/2024 22:07:03.92
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -725,9 +725,6 @@
 ^https?:\/\/api.feidee.net/v1/configs/client/configs url reject-200
 ^https?:\/\/api.gotokeep.com/cauchy/growth/init url reject
 ^https?:\/\/api.gotokeep.com/cauchy/growth/init url reject-200
-^https?:\/\/api.gotokeep.com/homepage/v\d/tab url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
-^https?:\/\/api.gotokeep.com/nuocha/course/v2/\w+/preview url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
-^https?:\/\/api.gotokeep.com/sportpage/sport/v3/mysport url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 ^https?:\/\/api.juxingclub.com/storage/business/rootName/app/homePage\?dataType=JSON url reject-dict
 ^https?:\/\/api.juxingclub.com/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
 ^https?:\/\/api.juxingclub.com\/ad\/getAll url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/rrtv_json.js
@@ -868,8 +865,10 @@
 ^https?:\/\/api\.gotokeep\.com\/config\/v\d\/basic url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 ^https?:\/\/api\.gotokeep\.com\/guide-webapp\/v\d\/popup\/getPopUp url reject
 ^https?:\/\/api\.gotokeep\.com\/guide-webapp\/v\d\/popup\/getPopUp url reject-200
+^https?:\/\/api\.gotokeep\.com\/homepage\/v\d\/tab url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide url reject
 ^https?:\/\/api\.gotokeep\.com\/kprime\/v\d\/popups\/primeGuide url reject-200
+^https?:\/\/api\.gotokeep\.com\/nuocha\/course\/v\d/\w+\/preview url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject
 ^https?:\/\/api\.gotokeep\.com\/op-engine-webapp\/v\d\/ad url reject-200
 ^https?:\/\/api\.gotokeep\.com\/running\/v\d\/home\/dialog url reject-200
@@ -879,6 +878,7 @@
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotCourse\/list url reject-200
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list url reject
 ^https?:\/\/api\.gotokeep\.com\/search\/v\d\/hotword\/list url reject-200
+^https?:\/\/api\.gotokeep\.com\/sportpage\/sport\/v\d\/mysport url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/keep.js
 ^https?:\/\/api\.gotokeep\.com\/training\/box\/config url reject
 ^https?:\/\/api\.gotokeep\.com\/training\/box\/config url reject-200
 ^https?:\/\/api\.gotokeep\.com\/twins\/v4\/feed\/course url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/keepStyle.js
@@ -1125,6 +1125,7 @@
 ^https?:\/\/api\.zhihu\.com\/ad-style-service\/request url reject-dict
 ^https?:\/\/api\.zhihu\.com\/api\/v4\/ecom_data\/config url reject-dict
 ^https?:\/\/api\.zhihu\.com\/appview\/api\/v\d\/answers\/\d+\/recommendations url reject
+^https?:\/\/api\.zhihu\.com\/bazaar\/vip_tab\/header\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
 ^https?:\/\/api\.zhihu\.com\/brand\/question\/\d+/card\? url reject-dict
 ^https?:\/\/api\.zhihu\.com\/comment_v5\/(articles|answers)\/\d+\/list-headers url reject-dict
 ^https?:\/\/api\.zhihu\.com\/comment_v5\/answers\/\d+\/list-headers url reject-dict
@@ -1613,8 +1614,8 @@
 ^https?:\/\/dj\.palmestore\.com\/zybk\/api\/ad url reject-200
 ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list url reject-200
 ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list&_ret_key=result&site_set url reject-200
-^https?:\/\/dl-cu-hz.lechange.cn/oms-online/advertisementPush/* url reject
 ^https?:\/\/dl-cu-hz.lechange.cn/oms-online/advertisementPush/* url reject-200
+^https?:\/\/dl-cu-hz\.lechange\.cn\/oms-online\/advertisementPush url reject
 ^https?:\/\/dl\.app\.gtja\.com/dzswem/kvController/[\w/]+\.jpg$ url reject
 ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController url reject-200
 ^https?:\/\/dl\.app\.gtja\.com\/dzswem\/kvController\/[\w\/]+\.jpg$ url reject
@@ -2523,15 +2524,15 @@
 ^https?:\/\/oneapph5\.dongfeng-nissan\.com\.cn\/mb-gw\/vmsp-discover\/rest\/business-service\/v1\/advert\/advertinfo url reject-dict
 ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/quark.js
 ^https?:\/\/open-cms-api\.(uc|quark)\.cn\/open-cms url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/quark.js
-^https?:\/\/open3.vistastory.com/v3/api.*get_popup url reject
 ^https?:\/\/open3.vistastory.com/v3/api.*get_popup url reject-200
-^https?:\/\/open3.vistastory.com/v3/api/index/loading_ad url reject
 ^https?:\/\/open3.vistastory.com/v3/api/index/loading_ad url reject-200
+^https?:\/\/open3\.vistastory\.com\/v\d\/api.*get_popup url reject
 ^https?:\/\/open3\.vistastory\.com\/v\d\/api\/inde/loading_ad url reject-200
+^https?:\/\/open3\.vistastory\.com\/v\d\/api\/index\/loading_ad url reject
 ^https?:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ url reject
 ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ url reject
 ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ url reject-200
-^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
+^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v\d\/open\/univ$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 ^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ url reject
 ^https?:\/\/open\.fitdays\.cn\/uploads\/ad\/ url reject-200
 ^https?:\/\/open\.qyer\.com/qyer/config/get url reject
@@ -2881,8 +2882,8 @@
 ^https?:\/\/t1\.market\.xiaomi\.com\/thumbnail\/webp\/w1170q100\/ url reject-200
 ^https?:\/\/t7z\.cupid\.iqiyi\.com\/show url reject
 ^https?:\/\/t\d{2}\.baidu\.com url reject-img
-^https?:\/\/tagit.hyhuo.com/recover/list url reject
 ^https?:\/\/tagit.hyhuo.com/recover/list url reject-200
+^https?:\/\/tagit\.hyhuo\.com\/recover\/list url reject
 ^https?:\/\/tan\.ipnas\.ltd\/wp-json\/wp\/v2 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/tb1\.bdstatic\.com\/tb\/cms\/ngmis\/adsense\/*.jpg url reject
 ^https?:\/\/tb2\.bdstatic\.com\/tb\/mobile\/spb\/widget\/jump url reject-img
@@ -2968,8 +2969,8 @@
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/.+\.mp4 url reject
 ^https?:\/\/video\.dispatch\.tc\.qq\.com\/\w+\.p20\d\.1\.mp4 url reject
 ^https?:\/\/vidz\.3hxq\.cn\/api\/app\/(miscs\/mine\/extensions|announcements\/home) url reject-dict
-^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v2\/theme\?op=gd) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
-^https?:\/\/vip1\.kuwo\.cn\/vip\/v2\/user\/vip\?op=ui url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
+^https?:\/\/vip1\.kuwo\.cn\/vip\/(enc\/user\/vip\?op=ui|v\d\/theme\?op=gd) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
+^https?:\/\/vip1\.kuwo\.cn\/vip\/v\d\/user\/vip\?op=ui url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
 ^https?:\/\/vip7\.fzwdyy\.cn:8083\/api\/(getAdvertInfo|getGOOGAdvert) url reject-200
 ^https?:\/\/vod-movie\.maoyan\.com\/vod\/video\/onlineMovies\.json url reject-dict
 ^https?:\/\/vv\.video\.qq\.com\/(diff|get)vmind url reject-dict
@@ -2979,7 +2980,7 @@
 ^https?:\/\/wa\.gtimg\.com\/adxcdn\/.+\.jpg url reject
 ^https?:\/\/wallet\.95516\.com(:10533)?\/s\/wl\/icon\/large\/1 url reject
 ^https?:\/\/wallet\.lakala\.com\/m\/a\/lama\/mgt\/activity\/biz\/query\/byMerInfo url reject-dict
-^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v3\/fetchMsgList url reject-dict
+^https?:\/\/wallet\.lakala\.com\/m\/a\/message\/v\d\/fetchMsgList url reject-dict
 ^https?:\/\/wallet\.lakala\.com\/m\/lama\/mgt\/activity\/bank\/query\/list url reject-dict
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/dateSignature\/random url reject-200
 ^https?:\/\/wallpaper\.soutushenqi\.com\/v\d\/home\/dialog url reject-200
