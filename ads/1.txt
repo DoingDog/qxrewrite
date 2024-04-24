@@ -1,5 +1,5 @@
 # Total line 3202
-# Last updated Tue 04/23/2024 22:07:03.92
+# Last updated Wed 04/24/2024 22:03:17.20
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1608,8 +1608,8 @@
 ^https?:\/\/dili\.bdatu\.com\/jiekou\/ad\/ url reject
 ^https?:\/\/direct\.z-bank\.com\/portal\/AdvertImageDownLoad4Mobile\.do url reject-200
 ^https?:\/\/discuz\.gtimg\.cn\/cloud\/scripts\/discuz_tips\.js url reject-img
-^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ url reject
 ^https?:\/\/dispatcher\.camera360\.com\/api\/v1\/list$ url reject-200
+^https?:\/\/dispatcher\.camera360\.com\/api\/v\d\/list$ url reject
 ^https?:\/\/display\.wting\.info\/.*.jpeg url reject-200
 ^https?:\/\/dj\.palmestore\.com\/zybk\/api\/ad url reject-200
 ^https?:\/\/djcapp\.game\.qq\.com\/daoju\/igw\/main\/\?_service=welink\.ad\.list url reject-200
@@ -2766,7 +2766,7 @@
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson url reject
 ^https?:\/\/service\.iciba\.com\/popo\/open\/screens\/v\d\?adjson url reject-200
 ^https?:\/\/sf3-be-pack\.pglstatp-toutiao\.com\/img\/ad\.union\.api url reject
-^https?:\/\/sfo\.mddcloud\.com\.cn\/api\/v2\/sfo\/popup_displays? url reject-dict
+^https?:\/\/sfo\.mddcloud\.com\.cn\/api\/v\d\/sfo\/popup_displays? url reject-dict
 ^https?:\/\/sh-gateway\.shihuo\.cn/v\d/services/sh-adapi/home/screen url reject
 ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/(screen|ad) url reject
 ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen url response-body egin_time":"\d{4} response-body egin_time":"2099
