@@ -1,5 +1,5 @@
-# Total line 3202
-# Last updated Wed 04/24/2024 22:03:17.20
+# Total line 3203
+# Last updated Thu 04/25/2024 22:03:48.64
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1552,6 +1552,7 @@
 ^https?:\/\/creative.xlivrdr.com/widgets/Spot/lib.js url reject
 ^https?:\/\/creative.xlivrdr.com/widgets/v4/Universal?tag url reject
 ^https?:\/\/creditcard\.bankcomm\.com\/tfimg\/public00\/M00\/4C\/6F url reject-img
+^https?:\/\/creditcardapp\.bankcomm\.(com|cn)\/mappweb_interaction\/appInfo\/appNewestVersion url reject-200
 ^https?:\/\/creditcardapp\.bankcomm\.cn/mappweb_interface/common/(qryPopAds|qryLaunchAds)\.do url reject
 ^https?:\/\/creditcardapp\.bankcomm\.cn\/mappweb_interface\/common\/(qryPopAds|qryLaunchAds)\.do url reject-200
 ^https?:\/\/creditcardapp\.bankcomm\.com\/mapp\/common\/(queryGuidePageAds|getPopAds)\.do$ url reject-200
