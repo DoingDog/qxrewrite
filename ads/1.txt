@@ -1,5 +1,5 @@
-# Total line 3200
-# Last updated Sun 04/28/2024 22:02:29.73
+# Total line 3201
+# Last updated Mon 04/29/2024 22:04:09.46
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -734,10 +734,6 @@
 ^https?:\/\/api.nivodz.com/commercial/incr/WEB/3.2?_ts=1697870082522 url reject
 ^https?:\/\/api.psy-1.com\/cosleep\/startup url reject
 ^https?:\/\/api.psy-1.com\/cosleep\/startup url reject-200
-^https?:\/\/api.rr.tv/storage/business/rootName/app/homePage\?dataType=JSON url reject-dict
-^https?:\/\/api.rr.tv/user/profile url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
-^https?:\/\/api.rr.tv/v3plus/index/channel\?pageNum=1&position=CHANNEL_INDEX url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
-^https?:\/\/api.rr.tv/watch/v4 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
 ^https?:\/\/api.weibo.cn/2/!/client/light_skin url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 ^https?:\/\/api.xiaoyi.com\/v5\/app\/config\?userid=.* url reject
 ^https?:\/\/api.xiaoyi.com\/v5\/app\/config\?userid=.* url reject-200
@@ -997,8 +993,12 @@
 ^https?:\/\/api\.rr\.tv\/ad\/getAll url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
 ^https?:\/\/api\.rr\.tv\/app\/config\/h5NativeBar url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
 ^https?:\/\/api\.rr\.tv\/drama\/app\/get_combined_drama_detail url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+^https?:\/\/api\.rr\.tv\/storage\/business\/rootName\/app\/homePage\?dataType=JSON url reject-dict
 ^https?:\/\/api\.rr\.tv\/user\/privilege\/list url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+^https?:\/\/api\.rr\.tv\/user\/profile url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_INDEX url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
 ^https?:\/\/api\.rr\.tv\/v3plus\/index\/channel\?pageNum=1&position=CHANNEL_MY url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
+^https?:\/\/api\.rr\.tv\/watch\/v\d url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/rrtv_json.js
 ^https?:\/\/api\.sfacg\.com\/ioscfg url reject
 ^https?:\/\/api\.sfacg\.com\/ioscfg url reject-200
 ^https?:\/\/api\.shanghaionstar\.com\/sos\/contentinfo\/v1\/public\/landingpage url reject-dict
@@ -1106,6 +1106,7 @@
 ^https?:\/\/api\.zhihu\.com/fringe/ad url reject
 ^https?:\/\/api\.zhihu\.com\/(?>ab|adx|xen|drama|zst|ad-style-service|market\/popover|search\/(?>top|tab|preset)|.*?(?>guide|recommendations|extended|featured-comment-ad)) url reject-200
 ^https?:\/\/api\.zhihu\.com\/(?>launch|real_time) url reject-200
+^https?:\/\/api\.zhihu\.com\/(answers|articles)\/v2\/\d+ url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
 ^https?:\/\/api\.zhihu\.com\/(bazaar\/float_window|market\/popovers_v2) url reject-dict
 ^https?:\/\/api\.zhihu\.com\/(comment_v5\/)?(answers|comments?|articles|pins)\/\d+\/(root_|child_)?comments? url script-response-body https://gist.githubusercontent.com/blackmatrix7/f5f780d0f56b319b6ad9848fd080bb18/raw/zheye.min.js
 ^https?:\/\/api\.zhihu\.com\/(launch|ad-style-service|app_config|real_time|ab\/api) url reject-img
@@ -1131,7 +1132,7 @@
 ^https?:\/\/api\.zhihu\.com\/commercial_api.*launch_v2 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/zhihu_openads.js
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/ url reject
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/(?>launch|real_time) url reject-200
-^https?:\/\/api\.zhihu\.com\/commercial_api\/(answer\/\d+\/bottom-v2|banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2) url reject-dict
+^https?:\/\/api\.zhihu\.com\/commercial_api\/(answer\/\d+\/bottom-v2|article\/\d+\/bottom-v2|banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2) url reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/(banners_v3\/app_topstory_banner|launch_v2|real_time_launch_v2) url reject-dict
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/(launch|real_time) url reject
 ^https?:\/\/api\.zhihu\.com\/commercial_api\/app_float_layer url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/zhihu.js
