@@ -1,5 +1,5 @@
-# Total line 3210
-# Last updated Sat 05/04/2024 22:03:16.43
+# Total line 3207
+# Last updated Sun 05/05/2024 22:02:56.29
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -665,7 +665,6 @@
 ^https?:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/ url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ url reject
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/union\/sdk\/get_ads url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 ^https?:\/\/api-account\.soulapp\.cn\/teenager\/config url reject-dict
 ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject
 ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject-200
@@ -2079,7 +2078,6 @@
 ^https?:\/\/iphone\.ac\.qq\.com\/.*\/Support\/(getSystemConf|bootScreen) url reject-200
 ^https?:\/\/ipv4\.music\.163\.com\/e?api\/ad\/loading\/current url reject-200
 ^https?:\/\/iqushangwang\.8quan\.com\/index\.php\/i\/index\/index url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/QuDa.js
-^https?:\/\/is.snssdk.com/api/ad/union/sdk url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 ^https?:\/\/issuecdn\.baidupcs\.com/issue/netdisk/guanggao url reject
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao url reject
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ url reject-200
@@ -2359,7 +2357,6 @@
 ^https?:\/\/mgesq\.api\.mgtv\.com\/search\/goods\/rank url reject-dict
 ^https?:\/\/mgesq\.api\.mgtv\.com\/user\/center\/config url reject-dict
 ^https?:\/\/mgesq\.api\.mgtv\.com\/v2\/goods\/guess_you_like url reject-dict
-^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/adsense.js
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url reject
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url reject-200
 ^https?:\/\/mi\.gdt\.qq\.com\/gdt_mview\.fcg url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/startup/startup.js
