@@ -1,5 +1,5 @@
 # Total line 3207
-# Last updated Sun 05/05/2024 22:02:56.29
+# Last updated Mon 05/06/2024 22:03:13.37
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -642,7 +642,7 @@
 ^https?:\/\/aimg\.babytreeimg\.com\/group1\/M00\/*\/*\/.*.jpg url reject-200
 ^https?:\/\/alittle-tea\.oss-cn-shanghai\.aliyuncs\.com\/images\/platform\/alittle url reject-dict
 ^https?:\/\/als\.baidu\.com\/clog\/clog url reject
-^https?:\/\/alt-r.my.com/mobile url reject-dict
+^https?:\/\/alt-r\.my\.com\/mobile url reject-dict
 ^https?:\/\/amap-aos-info-nogw\.amap\.com/ws/aos/alimama/ url reject-200
 ^https?:\/\/amdc-sibling\.alipay\.com\.cn\/s?query url reject
 ^https?:\/\/amdc\.alipay\.com\/s?query url reject
@@ -2015,7 +2015,7 @@
 ^https?:\/\/img\d+\.360buyimg\.com\/jddjadvertise\/ url reject
 ^https?:\/\/img\d\.doubanio\.com\/view\/dale-online\/dale_ad\/ url reject
 ^https?:\/\/imgcache\.qq\.com\/qqlive\/ url reject-img
-^https?:\/\/imgx.jampp.com/imgsrv/tn url reject-img
+^https?:\/\/imgx\.jampp\.com\/imgsrv\/tn url reject-img
 ^https?:\/\/impservice\.dictapp\.youdao\.com\/imp\/request url reject-img
 ^https?:\/\/info\.mina\.mi\.com\/advertise\/splash url reject-200
 ^https?:\/\/init\.sms\.mob\.com\/.*sdk\/init.* url reject
