@@ -1,5 +1,5 @@
 # Total line 3207
-# Last updated Wed 05/08/2024 22:03:39.45
+# Last updated Thu 05/09/2024 22:03:21.96
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1017,7 +1017,7 @@
 ^https?:\/\/api\.songguo7\.com\/(\w{3})?mp\/v2\/misc\/(toast|user_operate_info) url reject-dict
 ^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad url reject
 ^https?:\/\/api\.taou\.com\/sdk\/global\/splash_ad url reject-200
-^https?:\/\/api\.taptapdada\.com\/startup\-logo\/v1\/combo\? url reject-dict
+^https?:\/\/api\.taptapdada\.com\/startup-logo\/v\d\/combo\? url reject-dict
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/top\/ad url reject-img
 ^https?:\/\/api\.tipsoon\.com\/api\/v\d\/top\/ad url reject-200
 ^https?:\/\/api\.touker\.com\/v2\/IAdvertisementAPI\.queryStartAdvertisement url reject-200
@@ -2914,8 +2914,8 @@
 ^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/index\/activeConfig\/v2 url reject-dict
 ^https?:\/\/tm-api\.pin-dao\.cn\/home\/api\/resource\/config\/homeBannerNodes url reject-dict
 ^https?:\/\/toblog\.ctobsnssdk\.com url reject-200
-^https?:\/\/top-widgets-api.xiaozujian.com/api/ad/config url reject
 ^https?:\/\/top-widgets-api.xiaozujian.com/api/ad/config url reject-200
+^https?:\/\/top-widgets-api\.xiaozujian\.com\/api\/ad\/config url reject
 ^https?:\/\/tower\.ubixioe\.com\/mob\/mediation url reject
 ^https?:\/\/tqt\.weibo\.cn/.+advert\.index url reject
 ^https?:\/\/tqt\.weibo\.cn/api/advert/ url reject
@@ -3061,10 +3061,10 @@
 ^https?:\/\/www\.didapinche\.com/app/adstat/ url reject
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ url reject
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ url reject-200
+^https?:\/\/www\.flyert\.com\/.*\.php\?module=advis url reject-dict
+^https?:\/\/www\.flyert\.com\/.*plugin url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/flyert.js
 ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?version=\d&mobile=yes&module=basicdata&type=forumlist url response-body adv response-body ddgksf2013
-^https?:\/\/www\.flyert\.com\/plugin\.php url script-response-body https://raw.githubusercontent.com/zirawell/app_remove_ads/main/All/js/flyert.js
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject-200
-^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis.* url reject
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/fly.js
 ^https?:\/\/www\.flyertea\.com/source/plugin/mobile/mobile\.php\?module=advis url reject
 ^https?:\/\/www\.flyertea\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject
