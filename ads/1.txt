@@ -1,5 +1,5 @@
 # Total line 3209
-# Last updated Fri 05/10/2024 22:04:34.96
+# Last updated Sat 05/11/2024 22:03:11.11
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2778,8 +2778,8 @@
 ^https?:\/\/sh-gateway\.shihuo\.cn\/v\d\/services\/sh-adapi\/home\/screen url response-body egin_time":"\d{4} response-body egin_time":"2099
 ^https?:\/\/shcss\.suning\.com\/shcss-web\/api\/appImage\/queryAppImage\.do url reject-200
 ^https?:\/\/shop-api\.retail\.mi\.com/mtop/navi/skywheel/mishop/splash url reject-dict
+^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/(rec\/merge\/|skywheel\/mishop\/splash) url reject-dict
 ^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject-200
-^https?:\/\/shop-api\.retail\.mi\.com\/mtop\/navi\/skywheel\/mishop\/splash url reject-dict
 ^https?:\/\/shopapi\.io\.mi\.com/mtop/mf/resource/homePage/pageConfig url reject
 ^https?:\/\/shopapi\.io\.mi\.com\/mtop\/mf\/resource\/homePage\/pageConfig url reject-200
 ^https?:\/\/shopic\.sf-express\.com/crm/mobile/common/flashscreen url reject
