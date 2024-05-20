@@ -1,5 +1,5 @@
-# Total line 3224
-# Last updated Sun 05/19/2024 22:03:10.84
+# Total line 3223
+# Last updated Mon 05/20/2024 22:03:21.24
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -117,7 +117,7 @@
 ^https?:\/\/(gw|img)\.alicdn\.com\/imgextra\/.+\/[\w!]+\d+-\d+-.+-\b([8-9]\d{2,}|[1-9]\d{3,})\b-\b([5-9]\d{2,}|[1-9]\d{3,})\b url reject-dict
 ^https?:\/\/(img|vthumb)\.killcovid2021\.com.*?\.mp4 url reject
 ^https?:\/\/(ios|android)\.sogou\.com/[^/]+/sogou_input_[^/]+/[^/]+/index\.html url reject
-^https?:\/\/(ipv4|interface3?)\.music\.163.com\/eapi\/ad url reject-dict
+^https?:\/\/(ipv4|interface3?)\.music\.163\.com\/eapi\/ad url reject-dict
 ^https?:\/\/(jable|(en|\w{2,3})\.jable)\.tv\/(?!(.*(\?mode|cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/(kjp|t7z)\.cupid\.iqiyi\.com\/mixer\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/cnftp.js
 ^https?:\/\/(mgxhtj|nmobi|searchrecterm)\.kuwo\.cn\/(mgxh|mobi|recterm)\.s url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/kuwo.js
@@ -656,7 +656,6 @@
 ^https?:\/\/amdc\.m\.taobao\.com\/amdc\/mobileDispatch$ url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
 ^https?:\/\/amdc\.m\.youku\.com url reject-200
 ^https?:\/\/ams-cdn\.cdtft\.cn\/prod\/tft-ams\/ url reject-dict
-^https?:\/\/analytics\.163\.com\/ntes url reject
 ^https?:\/\/anime1\.me\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mp3|json|ico))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/ap\.dongqiudi\.com\/plat\/v url reject
 ^https?:\/\/ap\.dongqiudi\.com\/plat\/v4 url echo-response text/json echo-response https://raw.githubusercontent.com/ddgksf2013/Scripts/master/dongqiudi.js
@@ -1080,10 +1079,10 @@
 ^https?:\/\/api\.weibo\.cn\/\d\/profile\/recommend_popuser url reject-dict
 ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 ^https?:\/\/api\.weibo\.cn\/httpdns\/config url reject
-^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url reject
 ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url reject-200
+^https?:\/\/api\.wfdata\.club\/v\d\/yesfeng\/(infoCenterAd|yesList) url reject
 ^https?:\/\/api\.winbull8\.com\/v1\/marketing\/(advert|activity)\/(list|page) url reject-dict
-^https?:\/\/api\.wmpvp\.com\/api\/v1\/config\/promote url reject
+^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote url reject
 ^https?:\/\/api\.wmpvp\.com\/api\/v\d\/config\/promote url reject-200
 ^https?:\/\/api\.xbxxhz\.com\/big_data\/v1\/home_pages url reject
 ^https?:\/\/api\.xiachufang\.com/v\d/ad/ url reject
@@ -1334,7 +1333,6 @@
 ^https?:\/\/appconf\.mail\.163\.com/mmad/ url reject
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/ url reject-200
-^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject
 ^https?:\/\/appconf\.mail\.163\.com\/mmad\/get\.do url reject-200
 ^https?:\/\/appdmkj\.5idream\.net\/appPic\/homepage url reject-dict
 ^https?:\/\/appdmkj\.5idream\.net\/v2\/login\/message\/tip url reject-dict
@@ -1369,6 +1367,7 @@
 ^https?:\/\/b.appsimg.com/upload/momin/ url reject
 ^https?:\/\/b2baifanfan\.baidu\.com\/crm\/web\/b2b\/im\/common\/getConfigByDeviceNum url reject-200
 ^https?:\/\/b?dsp-x\.jd\.com\/adx\/ url reject-200
+^https?:\/\/b\.appsimg\.com\/upload\/momin url reject
 ^https?:\/\/b\.tslt\.xyz\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch url reject
 ^https?:\/\/baichuan\.baidu\.com\/rs\/adpmobile\/launch url reject-img
@@ -1505,8 +1504,8 @@
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/explorePage\/getAdverList url reject-200
 ^https?:\/\/client\.app\.coc\.10086\.cn\/biz-orange\/DN\/init\/startInit url reject-200
-^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) url reject
 ^https?:\/\/client\.mail\.163.com\/apptrack\/confinfo\/(searchMultiAds.do|showAds.do) url reject-200
+^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/(searchMultiAds|showAds) url reject
 ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds url reject
 ^https?:\/\/client\.mail\.163\.com\/apptrack\/confinfo\/searchMultiAds url reject-200
 ^https?:\/\/client\.qunar\.com\/pitcher-proxy\?qrt=p_splashAd url reject
@@ -2053,23 +2052,23 @@
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/v1\/content\/exposure\/comment url reject-dict
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?api\/vipcenter/tspopup\/get url reject-dict
 ^https?:\/\/interface(\d)?\.music\.163\.com\/w?e?eapi\/resource-exposure\/config url reject-dict
-^https?:\/\/interface3?\.music\.163.com\/eapi\/(comment\/(feed\/inserted|hotcomment\/collect|tips\/v2\/get)|v\d\/content\/exposure\/comment\/banner) url reject-dict
-^https?:\/\/interface3?\.music\.163.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/(strategy|resource)|scene\/show)) url reject-dict
-^https?:\/\/interface3?\.music\.163.com\/eapi\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) url reject-dict
-^https?:\/\/interface3?\.music\.163.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com/eapi/(ad|abtest|sp|hot|store|mlog|search/(specialkeyword|defaultkeyword|hot)) url reject-img
 ^https?:\/\/interface3?\.music\.163\.com\/e?api\/(ocpc\/)?ad\/ url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(batch|v2\/resource\/comment\/floor\/) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/(comment\/(feed\/inserted|hotcomment\/collect|tips\/v\d\/get)|v\d\/content\/exposure\/comment\/banner) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(community\/friends\/fans-group\/artist\/group\/get|user\/sub\/artist|music\/songshare\/text\/recommend\/get|mine\/applet\/redpoint|resniche\/position\/play\/new\/get) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(community\/friends\/fans-group\/artist\/group\/|mine\/applet\/redpoint|music\/songshare\/text\/recommend\/|resniche\/position\/play\/new\/|resource\/comments?\/musiciansaid\/|user\/sub\/artist) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(delivery\/(batch-deliver|deliver)|moment\/tab\/info\/|side-bar\/mini-program\/music-service\/account|yunbei\/account\/entrance\/) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(homepage\/block\/page|link\/page\/rcmd\/(block\/resource\/multi\/refresh|resource\/show)) url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(ios\/version|mlivestream\/entrance\/playpage\/|link\/position\/show\/strategy|link\/scene\/show\/resource|v1\/content\/exposure\/comment\/banner\/) url reject-dict
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/(mlivestream\/entrance\/playpage|link\/(position\/show\/(strategy|resource)|scene\/show)) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(music-vip-membership\/client\/vip\/info|vipauth\/app\/auth\/recycle) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/(side-bar\/mini-program\/music-service\/account|delivery\/batch-deliver) url reject-dict
+^https?:\/\/interface3?\.music\.163\.com\/eapi\/(vipcenter\/tspopup\/get|vipauth\/app\/auth|music-vip-membership\/client\/vip\/info|zone\/songplay\/entry\/get) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/link\/page\/discovery\/resource\/show url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/link\/position\/show\/resource url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
 ^https?:\/\/interface3?\.music\.163\.com\/eapi\/user\/follow\/users\/mixed\/ url script-response-body https://raw.githubusercontent.com/Keywos/rule/main/script/wy/js/wyres.js
+^https?:\/\/interface3?\.music\.163\.com\/w?e?api\/(search\/(chart|default|rcmd\/keyword|specialkeyword)|(resource-exposure\/|middle\/clientcfg\/config)|activity\/bonus\/playpage\/time\/query) url reject-dict
 ^https?:\/\/interface3?\.music\.163\.com\/w?eapi\/(activity\/bonus\/playpage\/time\/query|resource-exposure\/|search\/(chart\/|default\/|rcmd\/keyword\/|specialkeyword\/)) url reject-dict
 ^https?:\/\/interface\.aomiapp\.com\/aomi-ads url reject
 ^https?:\/\/intl\.iqiyi\.com/ad_external/ url reject
@@ -2699,8 +2698,8 @@
 ^https?:\/\/r\.inews\.qq\.com\/(getBannerAds|getNewsRemoteConfig|getSplash|searchHotCatList|upLoadLoc) url reject-200
 ^https?:\/\/ra7.xyz/z/.*/code.js url reject
 ^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/app-act\/act-list.+ url reject-dict
-^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v1\/get-by-uid.+ url reject-dict
-^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/floating-window\/v1\/get-show.+ url reject-dict
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/content-recommend\/v\d\/get-by-uid.+ url reject-dict
+^https?:\/\/recite\.perfectlingo\.com\/api\/recite\/floating-window\/v\d\/get-show.+ url reject-dict
 ^https?:\/\/referee\.xiaohongshu\.com\/v\d\/stateReport url reject-dict
 ^https?:\/\/render-oss-cdn\.amap\.com/render/studio-dev/image/ url reject-200
 ^https?:\/\/rengine-platform\.llsapp\.com\/auth\/api\/remoteResource\/darwin url reject-200
