@@ -1,5 +1,5 @@
 # Total line 3230
-# Last updated Thu 05/30/2024 22:07:40.24
+# Last updated Fri 05/31/2024 22:06:24.54
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1093,7 +1093,7 @@
 ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ url reject
 ^https?:\/\/api\.xiachufang\.com\/v\d\/ad/ url reject-200
 ^https?:\/\/api\.xueqiu\.com/brand/search/v1\.json url reject
-^https?:\/\/api\.xueqiu\.com/snowpard/launch_strategy/query\.json reject
+^https?:\/\/api\.xueqiu\.com/snowpard/launch_strategy/query\.json url reject
 ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json url reject
 ^https?:\/\/api\.xueqiu\.com\/brand\/search\/v1\.json\? url reject
 ^https?:\/\/api\.xueqiu\.com\/snowpard\/launch_strategy\/query\.json url reject-200
@@ -1804,7 +1804,7 @@
 ^https?:\/\/gateway\.caixin\.com\/api\/app-api\/auth\/(groupImageValidate|validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
 ^https?:\/\/gateway\.caixin\.com\/api\/app-api\/cxAdInfo\/selectIndexAdInfo url reject-dict
 ^https?:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
-^https?:\/\/gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window reject-dict
+^https?:\/\/gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?/fsda/app/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
@@ -2894,7 +2894,7 @@
 ^https?:\/\/supportda\.ofo\.com\/adaction\? url reject
 ^https?:\/\/suyun-guest\.daojia\.com\/api\/kuaigou\/banjia\/review url reject-dict
 ^https?:\/\/suzihaza\.com\/asset\/jquery\/slim-3\.2\.min\.js.* url reject
-^https?:\/\/switch\.jumpvg\.com/jump/(getlaunchad|recommend/ad_conf) reject
+^https?:\/\/switch\.jumpvg\.com/jump/(getlaunchad|recommend/ad_conf) url reject
 ^https?:\/\/switch\.jumpvg\.com\/jump\/(getlaunchad|recommend\/ad_conf) url reject-200
 ^https?:\/\/syh\.zybang\.com/com/adx/ url reject
 ^https?:\/\/syh\.zybang\.com\/com\/adx\/ url reject-200
