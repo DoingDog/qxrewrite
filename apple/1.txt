@@ -1,5 +1,5 @@
 # Total line 19
-# Last updated Sun 06/02/2024 22:03:11.55
+# Last updated Mon 06/03/2024 22:07:27.65
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
