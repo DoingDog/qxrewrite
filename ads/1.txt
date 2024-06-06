@@ -1,5 +1,5 @@
 # Total line 3230
-# Last updated Wed 06/05/2024 22:04:41.05
+# Last updated Thu 06/06/2024 22:04:43.32
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -973,7 +973,7 @@
 ^https?:\/\/api\.m\.mi\.com\/v1\/(app\/start|order\/expressView) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/api\.m\.mi\.com\/v1\/app\/popup_info$ url reject-dict
 ^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url reject-200
-^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+^https?:\/\/api\.m\.mi\.com\/v1\/app\/start url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
 ^https?:\/\/api\.m\.mi\.com\/v1\/home\/page_feed(_v5)?$ url reject-dict
 ^https?:\/\/api\.m\.mi\.com\/v1\/misearch\/search_input$ url reject-dict
 ^https?:\/\/api\.m\.mi\.com\/v2\/search\/search_default$ url reject-dict
