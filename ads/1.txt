@@ -1,5 +1,5 @@
-# Total line 3230
-# Last updated Fri 06/07/2024 22:04:26.02
+# Total line 3231
+# Last updated Sat 06/08/2024 22:03:18.33
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -445,7 +445,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.06.07/v2.0.481 url reject-200
+^https?:\/\/2024.06.08/v2.0.483 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -3147,6 +3147,7 @@
 ^https?:\/\/www\.zhihu\.com\/appview\/v2\/zhmore url reject
 ^https?:\/\/www\.zhihu\.com\/commercial_api\/banners_v3\/mobile_banner url reject
 ^https?:\/\/www\.zhihu\.com\/terms\/privacy\/confirm url reject-img
+^https?:\/\/www\.zjyilin\.com\/hykweb\/\/index\/openImg url reject-200
 ^https?:\/\/www\.zxzjhd\.com\/($|[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/adguard.js
 ^https?:\/\/www\.zybang\.com\/adx\/ url reject
 ^https?:\/\/wx\.17u\.cn\/crapi\/query\/getAdImgUrlByCode url reject-dict
