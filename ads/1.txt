@@ -1,5 +1,5 @@
-# Total line 3231
-# Last updated Mon 06/10/2024 22:07:33.86
+# Total line 3229
+# Last updated Tue 06/11/2024 22:05:09.48
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1744,7 +1744,7 @@
 ^https?:\/\/facade-api\.black-unique\.com\/advertise\/v1\/get\?cityId=102923&positions=mine_popup url reject-dict
 ^https?:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?.* url reject-dict
 ^https?:\/\/facade-api\.black-unique\.com\/app\/v1\/startScreen\?cityId=102923&channelId=0&width=1170&height=2532 url reject-dict
-^https?:\/\/fastbuyer\.zbj\.com\/configure\/screenAdConfig\/v2 url reject-200
+^https?:\/\/fastbuyer\.zbj\.com\/configure\/screenAdConfig\/ url reject-200
 ^https?:\/\/fbchina.flipchina.cn/v2/ad/query/* url reject-200
 ^https?:\/\/fbchina\.flipchina\.cn\/v\d\/ad\/query url reject
 ^https?:\/\/fc-video\.cdn\.bcebos\.com url reject
@@ -2233,7 +2233,6 @@
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject-200
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/(getHomePageAd|getWelcomeAd) url reject-img
 ^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject
-^https?:\/\/m\.client\.10010\.com\/uniAdmsInterface\/getWelcomeAd url reject-200
 ^https?:\/\/m\.creditcard\.ecitic\.com\/citiccard\/mbk\/appspace-getway\/getWay\/dkkj-system-web\/system\/v\d\/init-config url reject-200
 ^https?:\/\/m\.ctrip\.com/restapi/[\w/]+tripAds url reject
 ^https?:\/\/m\.ctrip\.com\/restapi\/soa2\/12673\/queryWeChatHotEvent url reject-dict
@@ -2502,8 +2501,8 @@
 ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/ithome.js
 ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html url reject
 ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js url reject
-^https?:\/\/new-app-api.ylyk.com/v1/user/myinfo/adviser url reject
 ^https?:\/\/new-app-api.ylyk.com/v1/user/myinfo/adviser url reject-200
+^https?:\/\/new-app-api\.ylyk\.com\/v\d\/user\/myinfo\/adviser url reject
 ^https?:\/\/new.vip.weibo.cn/littleskin/preview url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
 ^https?:\/\/new\.vip\.weibo\.cn\/aj\/appicon\/list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
 ^https?:\/\/newapp2\.szsmk\.com\/app\/config\/queryMainAd url reject-200
@@ -3010,7 +3009,6 @@
 ^https?:\/\/wanciwangdata\.oss-cn-beijing\.aliyuncs\.com\/startup\/resource\/content.+ url reject
 ^https?:\/\/wap.bank\.ecitic\.com:6443\/NMBFOServer\/cbframework\.do\?act=CUBEPAGEDATA url reject-200
 ^https?:\/\/wap\.js\.10086\.cn/jsmccClient/cd/market_content/api/v\d/market_content\.page\.query url reject
-^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v1\/market_content\.page\.queryHasIt url reject-dict
 ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject
 ^https?:\/\/wap\.js\.10086\.cn\/jsmccClient\/cd\/market_content\/api\/v\d\/market_content\.page\.query url reject-200
 ^https?:\/\/wap\.ngchina\.cn/news/adverts/ url reject
@@ -3207,11 +3205,11 @@
 ^https?:\/\/z\.onewo\.com\/passer\/api\/ads\/v1\/8\/list url reject-200
 ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig url reject
 ^https?:\/\/zconfig\.alibabausercontent\.com\/zconfig url reject-200
-^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v3 url reject-dict
-^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v3 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
-^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage\/v1 url reject-dict
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/guessYouLike\/v url reject-dict
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/config\/homeInit\/v url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/a\/update\/startupPage\/v url reject-dict
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/h\/headlines\/queryHeadlines url reject
-^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v3 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
+^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
 ^https?:\/\/zhidao\.baidu\.com\/(question|index|\?fr|\?word) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/webpage/baidu-zhidao.js
 ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject
