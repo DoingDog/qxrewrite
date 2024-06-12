@@ -1,5 +1,5 @@
-# Total line 3229
-# Last updated Tue 06/11/2024 22:05:09.48
+# Total line 3231
+# Last updated Wed 06/12/2024 22:02:12.72
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -672,7 +672,7 @@
 ^https?:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/ url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ url reject
-^https?:\/\/api-account\.soulapp\.cn\/teenager\/config url reject-dict
+^https?:\/\/api-account\.soulapp\.cn\/teenager\/config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject
 ^https?:\/\/api-ad-product\.huxiu\.com\/Api\/Product\/SDK\/Advert\/Query\/queryAdvertListInfo url reject-200
 ^https?:\/\/api-chat\.soulapp\.cn\/chat\/limitInfo url script-response-body https://raw.githubusercontent.com/Crazy-Z7/Script/main/Soul.js
@@ -700,8 +700,6 @@
 ^https?:\/\/api-one-wscn\.awtmt\.com\/apiv\d\/advertising\/ads url reject-200
 ^https?:\/\/api-one\.wallstcn\.com/apiv\d/advertising/ url reject
 ^https?:\/\/api-overmind\.youdao\.com\/openapi\/get\/luna\/dict\/dict-mobile\/prod\/dictCommonConfig url reject-dict
-^https?:\/\/api-pay\.soulapp\.cn\/privilege\/supervip\/status url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
-^https?:\/\/api-pay\.soulapp\.cn\/vip\/meet\/userInfo url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/api-release\.wuta-cam\.com/ad_tree url reject
 ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree url reject
 ^https?:\/\/api-release\.wuta-cam\.com\/ad_tree url reject-200
@@ -714,6 +712,7 @@
 ^https?:\/\/api-sams\.walmartmobile\.cn\/api\/v\d\/sams\/trade\/order\/getOftenBuyGoods url reject-dict
 ^https?:\/\/api-shoulei-ssl\.xunlei\.com\/flowhub\/v\d\/slots:batchGet url reject-200
 ^https?:\/\/api-user\.soulapp\.cn\/furion\/position\/content url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
+^https?:\/\/api-user\.soulapp\.cn\/v\d\/planet\/config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/api-wanda\.liepin\.com\/api\/com\.liepin\.cbp\.baizhong\.op\.v2-show-4app url reject-200
 ^https?:\/\/api.aliyundrive.com/apps/v1/users/apps/welcome url script-response-body https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 ^https?:\/\/api.aliyundrive.com/business/v1.0/users/feature/list url script-response-body https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
@@ -1494,6 +1493,8 @@
 ^https?:\/\/cds\.wifi188\.com\/feeds\.sec url reject-dict
 ^https?:\/\/cgbank\.oss-cn-shenzhen\.aliyuncs\.com\/visual\/advertisingImg\/.+.jpg url reject-200
 ^https?:\/\/channel\.beitaichufang\.com\/channel\/api\/v\d\/promote\/ios\/start\/page url reject
+^https?:\/\/chat-live\.soulapp\.cn\/chatroom\/chatClassifyRoomList url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
+^https?:\/\/chat-live\.soulapp\.cn\/live\/planet\/recListV2 url reject-200
 ^https?:\/\/cheyouapi\.ycapp\.yiche\.com\/appforum\/getusermessagecount url reject-img
 ^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/order\/queryOrderInfo url response-body "imgUrl" response-body "imgUrl0"
 ^https?:\/\/chl\.tf\.cn\/channelmg\/sys\/socso\/socsonew\/queryIsRealNameAdertInfo url reject-dict
@@ -2661,6 +2662,7 @@
 ^https?:\/\/portal\.zjzwfw\.gov\.cn\/app_api\/appHome\/selectStartPic url reject-200
 ^https?:\/\/post\.soulapp\.cn\/hot\/soul\/rank url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/post\.soulapp\.cn\/v\d\/post\/homepage\/guide\/card url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
+^https?:\/\/post\.soulapp\.cn\/v\d\/post\/recSquare\/subTabs url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/poweredby.jads.co/js/jads.js url reject
 ^https?:\/\/preprod\.cdzghome\.com:8100\/banner\/bootUp url reject-200
 ^https?:\/\/prom\.mobile\.gome\.com\.cn\/mobile\/promotion\/promscms\/\w+\.jsp url reject
