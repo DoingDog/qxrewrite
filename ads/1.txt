@@ -1,5 +1,5 @@
-# Total line 3210
-# Last updated Thu 06/20/2024 22:04:36.39
+# Total line 3211
+# Last updated Fri 06/21/2024 22:07:30.47
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -445,7 +445,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.06.08/v2.0.483 url reject-200
+^https?:\/\/2024.06.21/v2.0.484 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -3061,6 +3061,7 @@
 ^https?:\/\/www\.didapinche\.com\/app\/adstat\/ url reject-200
 ^https?:\/\/www\.flyert\.com\/.*\.php\?module=advis url reject-dict
 ^https?:\/\/www\.flyert\.com\/.*plugin url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/flyert.js
+^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?module=advis url reject-200
 ^https?:\/\/www\.flyert\.com\/api\/mobile\/index\.php\?version=\d&mobile=yes&module=basicdata&type=forumlist url response-body adv response-body ddgksf2013
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=advis url reject-200
 ^https?:\/\/www\.flyert\.com\/source\/plugin\/mobile\/mobile\.php\?module=threadpost&.+?&page=1 url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/fly.js
