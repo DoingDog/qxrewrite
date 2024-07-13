@@ -1,5 +1,5 @@
 # Total line 3227
-# Last updated Fri 07/12/2024 22:04:39.95
+# Last updated Sat 07/13/2024 22:03:43.02
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1800,7 +1800,7 @@
 ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
 ^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage url reject-dict
 ^https?:\/\/gateway\.caixin\.com\/api\/app-api\/(caixinapp\/appinfo|search\/getkeyword) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
-^https?:\/\/gateway\.caixin\.com\/api\/app-api\/auth\/(groupImageValidate|validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
+^https?:\/\/gateway\.caixin\.com\/api\/app-api\/auth\/(groupImageValidate|neWValidate|validate|validateAudioAuth) url script-request-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
 ^https?:\/\/gateway\.caixin\.com\/api\/app-api\/cxAdInfo\/selectIndexAdInfo url reject-dict
 ^https?:\/\/gateway\.caixin\.com\/api\/app-content\/fm\/index\/list\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/break/caixin.js
 ^https?:\/\/gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
@@ -2288,8 +2288,8 @@
 ^https?:\/\/maicai\.api\.ddxq\.mobi/advert/ url reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ url reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/getAd url response-body rt_time":\d{2} response-body rt_time":40
-^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/getAd\?ad_id url reject-dict
-^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop url reject-dict
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/getHomeAdPop url reject
+^https?:\/\/maicai\.api\.ddxq\.mobi\/homeApi\/newDetails url response-body suspension response-body random_body
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/bubble\/operate\/info url reject-dict
 ^https?:\/\/mall\.meituan\.com\/api\/c\/homepage\/splash url reject-dict
 ^https?:\/\/mama\.dxy\.com\/api\/cms\/client\/popup-window\/list url reject-200
