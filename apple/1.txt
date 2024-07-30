@@ -1,7 +1,14 @@
-# Total line 10
-# Last updated Mon 07/29/2024 22:09:04.06
+# Total line 17
+# Last updated Tue 07/30/2024 22:02:51.49
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/bag url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/card url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/flight url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
+^https?:\/\/api(.*)\.smoot\.apple\.(com|cn)\/search url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
 ^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/GeoServices.response.js
 ^https?:\/\/news(-sports)?-events\.apple\.com\/analyticseventsv2\/async url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
 ^https?:\/\/news(-todayconfig)?-edge\.apple\.com\/v1\/configs url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
@@ -12,4 +19,4 @@
 ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
 ^https?:\/\/uts-api\.itunes\.apple\.com\/uts\/(v1|v2|v3)\/ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.response.js
 
-hostname=gspe1-ssl.ls.apple.com,news-client-search.apple.com,news-client.apple.com,news-edge.apple.com,news-events.apple.com,news-sports-events.apple.com,news-todayconfig-edge.apple.com,testflight.apple.com,umc-tempo-api.apple.com,uts-api.itunes.apple.com,
+hostname=api*.smoot.apple.cn,api*.smoot.apple.com,gspe1-ssl.ls.apple.com,news-client-search.apple.com,news-client.apple.com,news-edge.apple.com,news-events.apple.com,news-sports-events.apple.com,news-todayconfig-edge.apple.com,testflight.apple.com,umc-tempo-api.apple.com,uts-api.itunes.apple.com,
