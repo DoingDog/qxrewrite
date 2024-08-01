@@ -1,5 +1,5 @@
 # Total line 3242
-# Last updated Wed 07/31/2024 22:07:13.26
+# Last updated Thu 08/01/2024 22:05:57.97
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -452,7 +452,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.07.30/v2.0.498 url reject-200
+^https?:\/\/2024.08.01/c324/v2.0.499 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -560,6 +560,7 @@
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv url reject-dict
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.advertisementservice\.getadv\/ url reject-200
+^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alibaba\.mos\.app\.homepage\.launch url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query url reject-200
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/ url response-body "ems_etao_advertise" response-body ""
 ^https?:\/\/acs\.m\.taobao\.com\/gw\/mtop\.alimama\.etao\.config\.query\/.+?etao_advertise url reject
@@ -812,7 +813,6 @@
 ^https?:\/\/api\.caijingmobile\.com/(ad|advert)/ url reject
 ^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ url reject
 ^https?:\/\/api\.caijingmobile\.com\/(ad|advert)\/ url reject-200
-^https?:\/\/api\.caiyunapp\.com\/v1\/activity url reject-200
 ^https?:\/\/api\.caiyunapp\.com\/v1\/activity url reject-dict
 ^https?:\/\/api\.catch\.gift\/api\/v\d\/pagead\/ url reject
 ^https?:\/\/api\.cdmcaac\.com/ad/ url reject
