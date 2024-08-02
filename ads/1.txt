@@ -1,5 +1,5 @@
-# Total line 3242
-# Last updated Thu 08/01/2024 22:05:57.97
+# Total line 3243
+# Last updated Fri 08/02/2024 22:05:25.78
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -645,6 +645,7 @@
 ^https?:\/\/ads\.ishansong\.com\/advert url reject-dict
 ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* url reject-200
 ^https?:\/\/adservice\.sigmob\.cn\/extconfig url response-body false response-body true
+^https?:\/\/adserviceretry\.kglink\.cn\/v4\/mobile_splash\? url reject-dict
 ^https?:\/\/adsoss\.zhinengxiyifang\.cn\/ads url reject
 ^https?:\/\/adstatic\.peopleapp\.com\/upload\/AppLoad\/.*.(jpg|png) url reject-200
 ^https?:\/\/adv\.ccb\.com\/ebda\/ctm_adv url reject-200
