@@ -1,5 +1,5 @@
 # Total line 3244
-# Last updated Sat 08/03/2024 22:04:16.73
+# Last updated Sun 08/04/2024 22:07:34.98
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -452,7 +452,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.08.01/c324/v2.0.499 url reject-200
+^https?:\/\/2024.08.04/c325/v2.0.501 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -1221,6 +1221,7 @@
 ^https?:\/\/app-api\.niu\.com\/v\d\/advertisement\/ url reject
 ^https?:\/\/app-api\.smzdm\.com/util/loading url reject
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url reject
+^https?:\/\/app-api\.smzdm\.com\/util\/loading url response-body start_date":"\d{4} response-body start_date":"4099
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
 ^https?:\/\/app-api\.smzdm\.com\/util\/loading url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 ^https?:\/\/app-api\.smzdm\.com\/util\/update url script-response-body https://raw.githubusercontent.com/ZenmoFeiShi/Qx/main/Smzdm.js
@@ -3185,7 +3186,6 @@
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ url reject-200
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show url reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad url reject
-^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/newcomer_ad url reject-dict
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d url reject-200
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject-200
 ^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png url reject-img
