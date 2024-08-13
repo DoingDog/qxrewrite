@@ -1,5 +1,5 @@
 # Total line 3290
-# Last updated Mon 08/12/2024 22:07:30.93
+# Last updated Tue 08/13/2024 22:06:47.48
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2223,10 +2223,10 @@
 ^https?:\/\/m5-zb\.amap\.com\/ws\/promotion-web\/resource(\/home)?\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 ^https?:\/\/m5-zb\.amap\.com\/ws\/sharedtrip\/taxi\/order_detail_car_tips\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 ^https?:\/\/m5\.amap\.com\/ws\/(mapapi\/hint_text\/offline_data|message\/notice\/list|shield\/search\/new_hotword) url reject-dict
-^https?:\/\/m5\.amap\.com\/ws\/c3frontend\/af-hotel\/page\/main\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+^https?:\/\/m5\.amap\.com\/ws\/c3frontend\/af-(hotel|launch)\/page\/main\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 ^https?:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(card-service-plan-home|main-page) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
+^https?:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/(main-page-assets|main-page-location|ridewalk-end-fc) url reject-dict
 ^https?:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/card-service-(car-end|route-plan) url reject-dict
-^https?:\/\/m5\.amap\.com\/ws\/faas\/amap-navigation\/main-page-(assets|location) url reject-dict
 ^https?:\/\/m5\.amap\.com\/ws\/perception\/drive\/(routeInfo|routePlan) url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
 ^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? url reject-dict
 ^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/profile\/index\/nodefaasv3\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/amap.js
