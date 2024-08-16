@@ -1,5 +1,5 @@
-# Total line 3306
-# Last updated Thu 08/15/2024 22:06:14.28
+# Total line 3307
+# Last updated Fri 08/16/2024 22:05:20.51
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -456,7 +456,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.08.15/c329/v2.0.512 url reject-200
+^https?:\/\/2024.08.16/c330/v2.0.513 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -2061,8 +2061,7 @@
 ^https?:\/\/img\.meituan\.net\/(bizad|brandCpt)\/\w+\.(png|jpg) url reject-200
 ^https?:\/\/img\.meituan\.net\/bizad\/.*.jpg url reject-200
 ^https?:\/\/img\.meituan\.net\/bizad\/bizad_brandCpt_\d+\.jpg url reject-dict
-^https?:\/\/img\.meituan\.net\/dpmobile\/.*.(gif|jpg) url reject-200
-^https?:\/\/img\.meituan\.net\/dpmobile\/.+93241\.png url reject-dict
+^https?:\/\/img\.meituan\.net\/dpmobile\/ url script-response-body https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/dianping.js
 ^https?:\/\/img\.umetrip\.com\/fs\/advert/ url reject
 ^https?:\/\/img\.wukongtv\.com\/wkremote\/AD\/iOS\/.*.(jpg|png|jpeg) url reject-200
 ^https?:\/\/img\.yun\.01zhuanche\.com\/statics\/app\/advertisement\/.+?-750-1334 url reject-img
@@ -2267,6 +2266,7 @@
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/t1\/96405\/17\/28473\/168578\/625cd144E7997a990\/8233ce8a10c4e463\.jpg url reject
 ^https?:\/\/m\.360buyimg\.com\/mobilecms\/s640x1136_jfs\/ url reject-img
 ^https?:\/\/m\.airchina\.com\.cn\/airchina\/gateway\/v\d(\.\d)*\/api\/services url script-response-header https://raw.githubusercontent.com/zirawell/Ad-Cleaner/main/Collection/js/airchina.js
+^https?:\/\/m\.api\.shaoxing\.com\.cn\/v\d\/start url reject-200
 ^https?:\/\/m\.aty\.sohu\.com\/openload? url reject-img
 ^https?:\/\/m\.caijing\.com\.cn/startup_ad_ios\.html$ url reject
 ^https?:\/\/m\.caijing\.com\.cn\/startup_ad_ios\.html$ url reject
@@ -3247,6 +3247,7 @@
 ^https?:\/\/xqimg\.imedao\.com\/[a-z0-9]{24}\.jpg$ url reject-200
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/activity\/show url reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/agent_ad url reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/vajra url reject-dict
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d url reject-200
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject-200
 ^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png url reject-img
