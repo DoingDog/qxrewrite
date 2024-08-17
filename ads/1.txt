@@ -1,5 +1,5 @@
-# Total line 3307
-# Last updated Fri 08/16/2024 22:05:20.51
+# Total line 3308
+# Last updated Sat 08/17/2024 22:04:32.90
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1088,6 +1088,7 @@
 ^https?:\/\/api\.weibo\.cn\/2\/messageflow\/notice\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
 ^https?:\/\/api\.weibo\.cn\/2\/photo\/info\? url reject-dict
 ^https?:\/\/api\.weibo\.cn\/2\/profile\/(container_timeline|dealatt|me|statuses\/tab|userinfo)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
+^https?:\/\/api\.weibo\.cn\/2\/profile\/container_timeline\?flowId=\d+&invokeType=manual&manualType=scroll&pageDataType=flow&taskType=loadMore& url reject-dict
 ^https?:\/\/api\.weibo\.cn\/2\/search\/(container_timeline|finder)\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
 ^https?:\/\/api\.weibo\.cn\/2\/search\/container_discover\? url reject-dict
 ^https?:\/\/api\.weibo\.cn\/2\/searchall\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/weibo.js
