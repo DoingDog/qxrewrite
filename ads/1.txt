@@ -1,5 +1,5 @@
-# Total line 3318
-# Last updated Mon 08/19/2024 22:07:36.06
+# Total line 3319
+# Last updated Tue 08/20/2024 22:06:36.85
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -461,7 +461,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.08.18/c331/v2.0.514 url reject-200
+^https?:\/\/2024.08.20/c332/v2.0.515 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -2617,6 +2617,7 @@
 ^https?:\/\/open3\.vistastory\.com\/v\d\/api.*get_popup url reject
 ^https?:\/\/open3\.vistastory\.com\/v\d\/api\/inde/loading_ad url reject-200
 ^https?:\/\/open3\.vistastory\.com\/v\d\/api\/index\/loading_ad url reject
+^https?:\/\/open\.78dm\.net\/v\d\/site\/ad\/ url reject-200
 ^https?:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open url reject-dict
 ^https?:\/\/open\.e\.kuaishou\.cn\/rest\/e\/v3\/open\/univ url reject
 ^https?:\/\/open\.e\.kuaishou\.com\/rest\/e\/v3\/open\/univ url reject
