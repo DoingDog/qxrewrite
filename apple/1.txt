@@ -1,5 +1,5 @@
 # Total line 17
-# Last updated Wed 09/11/2024 22:07:16.48
+# Last updated Thu 09/12/2024 22:08:22.33
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ^https?:\/\/api-(.*)\.smoot\.apple\.com\/card url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
