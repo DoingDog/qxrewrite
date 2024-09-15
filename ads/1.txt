@@ -1,5 +1,5 @@
-# Total line 3365
-# Last updated Sat 09/14/2024 22:05:22.20
+# Total line 3366
+# Last updated Sun 09/15/2024 22:08:16.95
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -469,7 +469,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.09.14/c339/v2.0.525 url reject-200
+^https?:\/\/2024.09.15/c340/v2.0.526 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -1994,6 +1994,7 @@
 ^https?:\/\/hkj178\.com\/wp\-json\/mp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/home\.mi\.com/cgi-op/api/v\d/recommendation/(banner|myTab|openingBanner) url reject-dict
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) url reject-dict
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation url reject-200
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner url reject
 ^https?:\/\/homefront.qunar.com/front/splash/ad url reject-200
 ^https?:\/\/homefront\.qunar\.com\/front\/splash\/ad url reject-dict
