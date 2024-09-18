@@ -1,5 +1,5 @@
-# Total line 3366
-# Last updated Tue 09/17/2024 22:07:23.05
+# Total line 3367
+# Last updated Wed 09/18/2024 22:07:14.51
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -469,7 +469,7 @@
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
 ^https?:\/\/2023\.redircdn\.com\/web\/mob_post\.js\? url script-response-body https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/myBlockAds.js
-^https?:\/\/2024.09.15/c340/v2.0.526 url reject-200
+^https?:\/\/2024.09.18/c341/v2.0.527 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -2538,6 +2538,7 @@
 ^https?:\/\/mobileapi-v6\.elong\.com\/adgateway\/ url reject
 ^https?:\/\/mobileapi\.ly\.com\/wlfrontend\/app\/scenicMain url reject-dict
 ^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter url reject
+^https?:\/\/mobileapi\.xiamenair\.com\/mobile-starter\/.+\/getStartAD url reject-200
 ^https?:\/\/mobilehotelapi\.elong\.com\/appHotel\/adx\/advert\/getAdvert url reject-dict
 ^https?:\/\/mobilepaas\.abchina\.com\.cn:441\/mgw\.htm url script-response-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/abchina.js
 ^https?:\/\/mobilepaas\.abchina\.com\.cn:441\/mgw\.htm$ url script-response-header https://raw.githubusercontent.com/RuCu6/QuanX/main/Scripts/header.js
