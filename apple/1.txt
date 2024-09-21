@@ -1,5 +1,5 @@
-# Total line 18
-# Last updated Fri 09/20/2024 22:08:28.18
+# Total line 19
+# Last updated Sat 09/21/2024 22:07:02.08
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/card url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
@@ -13,7 +13,8 @@
 ^https?:\/\/news(-sports)?-events\.apple\.com\/analyticseventsv2\/async url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
 ^https?:\/\/news(-todayconfig)?-edge\.apple\.com\/v1\/configs url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
 ^https?:\/\/news-client-search\.apple\.com\/v1\/search url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
-^https?:\/\/play(-edge)?\.itunes\.apple\.com\/WebObjects\/MZPlay(Local)?\.woa\/hls(\/subscription)?\/playlist\.m3u8 url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
+^https?:\/\/play(-edge)?\.itunes\.apple\.com\/WebObjects\/MZPlay(Local)?\.woa\/hls(\/(subscription|workout))?\/playlist\.m3u8 url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
+^https?:\/\/play(-edge)?\.itunes\.apple\.com\/WebObjects\/MZPlay(Local)?\.woa\/wa\/(fpsRequest|checkInNonceRequest) url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
 ^https?:\/\/testflight\.apple\.com\/ url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.request.js
 ^https?:\/\/testflight\.apple\.com\/ url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TestFlight.response.js
 ^https?:\/\/umc-tempo-api\.apple\.com\/(v1|v2|v3)\/ url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/TV.request.js
