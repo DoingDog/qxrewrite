@@ -1,14 +1,14 @@
 # Total line 19
-# Last updated Fri 09/27/2024 22:07:19.43
+# Last updated Sat 09/28/2024 22:06:39.72
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
-^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/card url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
-^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/card url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
-^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/flight url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
-^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/search url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
-^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/search url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
-^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag url script-request-header https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.request.js
-^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/Siri.response.js
+^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/card url script-request-header https://github.com/NSRingo/Siri/releases/latest/download/request.js
+^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/card url script-response-body https://github.com/NSRingo/Siri/releases/latest/download/response.js
+^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/flight url script-request-header https://github.com/NSRingo/Siri/releases/latest/download/request.js
+^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/search url script-request-header https://github.com/NSRingo/Siri/releases/latest/download/request.js
+^https?:\/\/api(2|-.+)\.smoot\.apple\.com\/search url script-response-body https://github.com/NSRingo/Siri/releases/latest/download/response.js
+^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag url script-request-header https://github.com/NSRingo/Siri/releases/latest/download/request.js
+^https?:\/\/api2?\.smoot\.apple\.(com|cn)\/bag url script-response-body https://github.com/NSRingo/Siri/releases/latest/download/response.js
 ^https?:\/\/gspe1-ssl\.ls\.apple\.com\/pep\/gcc url script-response-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/GeoServices.response.js
 ^https?:\/\/news(-sports)?-events\.apple\.com\/analyticseventsv2\/async url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
 ^https?:\/\/news(-todayconfig)?-edge\.apple\.com\/v1\/configs url script-request-body https://raw.githubusercontent.com/VirgilClyne/iRingo/main/js/News.request.js
