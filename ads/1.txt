@@ -1,5 +1,5 @@
-# Total line 3374
-# Last updated Sat 09/28/2024 22:06:37.72
+# Total line 3369
+# Last updated Sun 09/29/2024 22:06:58.47
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -838,17 +838,13 @@
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/pay/ok$ url reject-dict
 ^https?:\/\/api\.bjxkhc\.com\/index\.php\/app\/ios\/ver/index_ios$ url reject
 ^https?:\/\/api\.blibee\.com\/cvsnotify-api\/cvs\/notify\/app\/banner\/v\d+$ url reject-200
-^https?:\/\/api\.boohee\.com\/app-interface\/v1\/record\/record_tool(_pop)?_ad url reject-dict
 ^https?:\/\/api\.boohee\.com\/app-interface\/v1\/search\/search\? url reject-dict
-^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/(discover_chosen|page_float_bubbles) url reject-dict
 ^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/page_float_bubbles\? url reject-dict
 ^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/plaza\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
-^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/record_index url response-body articles response-body fmz200
 ^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/sensor-banners\? url reject-dict
 ^https?:\/\/api\.boohee\.com\/meta-interface\/v1\/index\/tool_buttons\? url reject-dict
 ^https?:\/\/api\.boohee\.com\/meta-interface\/v2\/index\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
 ^https?:\/\/api\.boohee\.com\/open-interface\/v1\/string\/market_page\?title=metabolism_config$ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/bohe/bohe_ads.js
-^https?:\/\/api\.boohee\.com\/shop-interface\/api\/v1\/home\/index url reject-dict
 ^https?:\/\/api\.bwton\.com\/bas\/ad url reject-200
 ^https?:\/\/api\.bwton\.com\/bff\/app\/h5\/v1\/station\/goods url reject-dict
 ^https?:\/\/api\.bwton\.com\/bff\/app\/index\/goods url reject-dict
@@ -1448,7 +1444,6 @@
 ^https?:\/\/blog\.nilbt\.com\/static\/api\/update url reject-200
 ^https?:\/\/bodianimgcdn\.kuwo\.cn\/images\/0e83c1821cd2681de08e20bec73d1e75 url reject-dict
 ^https?:\/\/bodianimgcdn\.kuwo\.cn\/images\/198c0b313fe9e53b03240c7b30b4acc9 url reject-dict
-^https?:\/\/bohe\.sfo-tx-shanghai-01\.saas\.sensorsdata\.cn\/api\/v2\/sfo\/user_popup_configs url reject-dict
 ^https?:\/\/bohe\.sfo-tx-shanghai-01\.saas\.sensorsdata\.cn\/api\/v2\/sfo\/user_popup_configs\? url reject-dict
 ^https?:\/\/book\.img\.ireader\.com\/group6\/M00 url reject-img
 ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
