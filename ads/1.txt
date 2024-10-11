@@ -1,5 +1,5 @@
-# Total line 3371
-# Last updated Thu 10/10/2024 22:08:10.90
+# Total line 3372
+# Last updated Fri 10/11/2024 22:07:26.93
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2114,6 +2114,7 @@
 ^https?:\/\/intellicc\.bcs\.cmbchina\.com\/Edge\/api\/mlife\.intelli\.adrender\.api\.AdWork\/getAdsBySlotId url reject-dict
 ^https?:\/\/interface(\d)?.music.163.com/eapi/ad/ url reject
 ^https?:\/\/interface(\d)?.music.163.com\/eapi\/ad\/ url reject
+^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ url script-request-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/deleteAeapi.js
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/current url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
 ^https?:\/\/interface(\d)?\.music\.163\.com\/e?api\/ad\/loading\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/4f53b7c6083678df25fecc8ff68b52c4/raw/netease.adblock.js
