@@ -1,5 +1,5 @@
-# Total line 3218
-# Last updated Tue 10/22/2024 22:08:05.44
+# Total line 3217
+# Last updated Wed 10/23/2024 22:07:44.05
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -10,7 +10,6 @@
 (^https?:\/\/passport\.biliintl\.com\/x\/intl\/passport-login\/.+)(&s_locale=zh-Hans_[A-Z]{2})(.+)(&sim_code=\d+)(.+) url 302 $1&s_locale=zh-Hans_PH$35&sim_code=51503$5
 (^https?:\/\/www\.pornhub\.com)(.*) url 307 https://cn.pornhub.com$2
 (https://www.javlibrary.com/cn/videoreviews.php\?v=)(.*?)(&mode=.*) url 307 https://www.javlibrary.com/cn/?v=$2
-.*tv\/ad\/ url reject
 /assets/jquery/main100.js? url reject
 404: Not Found
 ^(http:\/\/www\.vgtime\.com\/app\/topic\/\d+\.jhtml\?.*?&close_ad=)false(&page=\d&sign=\w+&timestamp=\d+&font_size=\d$) url 302 $1true$2
@@ -1820,7 +1819,6 @@
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.fc\.resource\.tacdata\.get url reject-200
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(cloudvideo\.video\.query|wireless\.home\.splash\.awesome\.get) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/myBlockAds.js
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.(volvo\.secondfloor\.getconfig|wireless\.home\.newface\.awesome\.get) url reject-dict
-^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get url reject-200
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.taobao\.wireless\.home\.splash\.awesome\.get\/ url reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless url reject
 ^https?:\/\/guide-acs\.m\.taobao\.com\/gw\/mtop\.tmall\.wireless url reject-200
@@ -3082,6 +3080,7 @@
 ^https?:\/\/www\.inoreader\.com\/adv\/ url reject
 ^https?:\/\/www\.iyingdi\.cn\/ad url reject-200
 ^https?:\/\/www\.javbus\.com\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
+^https?:\/\/www\.javlibrary\.com\/(cn|tw|ja|en)\/(\?v\=jav|vl_|search|star|tl_|public|genre) url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.javlibrary\.com\/img\/.*\.gif url 307 https://www.javlibrary.com/favicon.ico
 ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage url reject-200
 ^https?:\/\/www\.laoguikeji\.cn\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
