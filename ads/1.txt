@@ -1,5 +1,5 @@
-# Total line 3229
-# Last updated Fri 11/01/2024 22:17:42.02
+# Total line 3231
+# Last updated Mon 11/04/2024 22:17:30.54
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -451,7 +451,7 @@
 ^https?:\/\/182\.92\.244\.70\/d\/json url reject-dict
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
-^https?:\/\/2024.10.30/c352/v2.0.541 url reject-200
+^https?:\/\/2024.11.03/c352/v2.0.545 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -1782,6 +1782,7 @@
 ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
 ^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage url reject-dict
 ^https?:\/\/gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
+^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?/fsda/app/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?\/fsda\/app\/bootImage\.json url reject
 ^https?:\/\/gateway\.shouqiev\.com\/fsda\/app\/bootImage\.json url reject
@@ -2094,6 +2095,7 @@
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/ts_ad\/ url reject-200
 ^https?:\/\/itunes\.apple\.com/lookup\?id=575826903 url reject
 ^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 url reject
+^https?:\/\/iyes\.youku\.com\/uts/v\d\/start url reject-200
 ^https?:\/\/iyes\.youku\.com\/uts\/v1\/start url script-response-body https://gist.githubusercontent.com/ddgksf2013/5b431857f8b88acbc7ac2453a21e676a/raw/youku.adblock.js
 ^https?:\/\/iyes\.youku\.com\/uts\/v1\/video url reject-200
 ^https?:\/\/iyes\.youku\.com\/uts\/v\d\/start url reject
