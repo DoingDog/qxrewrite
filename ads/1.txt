@@ -1,5 +1,5 @@
-# Total line 3245
-# Last updated Fri 11/22/2024 22:18:41.87
+# Total line 3243
+# Last updated Mon 11/25/2024 22:18:00.44
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -98,7 +98,7 @@
 ^https?:\/\/(ditu|maps).google\.cn url 302 https://maps.google.com
 ^https?:\/\/(ditu|maps)\.google\.cn url 302 https://maps.google.com
 ^https?:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/(sys\/app\/adposNew\?sign|eorder\/product\/popAppTagProductList) url reject
-^https?:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList url reject
+^https?:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList url reject-dict
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v4\/note\/videofeed|v10\/note\/video\/save)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.home\.whale\.modulet\/ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xianyu/xianyu_ads.js
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xianyu/xianyu_ads.js
@@ -456,7 +456,7 @@
 ^https?:\/\/182\.92\.244\.70\/d\/json url reject-dict
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
-^https?:\/\/2024.11.20/c355/v2.0.551 url reject-200
+^https?:\/\/2024.11.23/c356/v2.0.552 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -699,7 +699,7 @@
 ^https?:\/\/api-access\.(pangolin-sdk-toutiao|pangolin-sdk-toutiao1)\.com\/api\/ad url reject
 ^https?:\/\/api-access\.[0-9a-zA-Z_-]+\.com\/api\/ad url reject-200
 ^https?:\/\/api-access\.pangolin-sdk-toutiao-b\.com\/api\/ad\/union\/sdk\/get_ads url reject
-^https?:\/\/api-access\.pangolin-sdk-toutiao\.com/api/ad/union/sdk/ url reject
+^https?:\/\/api-access\.pangolin-sdk-toutiao1?\.com/api/ad/ url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\.com\/api\/ad\/.+ url reject
 ^https?:\/\/api-access\.pangolin-sdk-toutiao\d?\.com\/api\/ad\/ url reject
 ^https?:\/\/api-account\.soulapp\.cn\/teenager\/config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
@@ -1280,6 +1280,7 @@
 ^https?:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement url reject
 ^https?:\/\/app\.dewu\.com\/api\/v1\/app\/advertisement\/ url reject-200
 ^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup url reject
+^https?:\/\/app\.duxiaoman\.com\/walletapp\/misc\/app_startup url reject-200
 ^https?:\/\/app\.flymodem\.com\.cn\/Appapi\/Public\/welecome url reject-200
 ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list url reject
 ^https?:\/\/app\.hbooker\.com\/setting\/get_startpage_url_list url reject-200
@@ -3193,9 +3194,6 @@
 ^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg url reject-200
 ^https?:\/\/you\.163\.com/ url 302 https://you.163.com/
 ^https?:\/\/you\.163\.com\/ url 302 https://you.163.com/
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(account\/get_setting|browse|get_watch|guide|next|player|reel\/reel_watch_sequence|search) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|get_watch|next|player|reel\/reel_watch_sequence) url script-request-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
-^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|reel\/reel_watch_sequence|get_watch) url script-request-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.request.preview.js
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/master/Script/Youtube/dist/youtube.response.preview.js
 ^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage url reject-200
 ^https?:\/\/yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result url reject-dict
