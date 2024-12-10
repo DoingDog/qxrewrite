@@ -1,5 +1,5 @@
-# Total line 3248
-# Last updated Sat 12/07/2024 22:18:20.92
+# Total line 3249
+# Last updated Tue 12/10/2024 22:19:19.01
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -533,7 +533,7 @@
 ^https?:\/\/\w+\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ url reject-200
 ^https?:\/\/\w+\.kingsoft-office-service\.com/ad url reject
 ^https?:\/\/\w+\.kingsoft-office-service\.com\/ad url reject
-^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
+^https?:\/\/\w{0,3}(\.){0,1}91porn\.com\/(?!(.*(get_image|slider_verify|cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/\w{0,3}(\.){0,1}91porna\.com\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.91porna.js
 ^https?:\/\/\w{3,5}\.javmost\.com\/(?!(.*(cdn-cgi|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/surge_javmost.js
 ^https?:\/\/a.magsrv.com/ad-provider.js url reject
@@ -1795,7 +1795,7 @@
 ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show url reject-200
 ^https?:\/\/gateway\.abite\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
 ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
-^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage reject-dict
+^https?:\/\/gateway\.benewtech\.cn\/resources-app\/app\/startup\/prepage url reject-dict
 ^https?:\/\/gateway\.cotticoffee\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
 ^https?:\/\/gateway\.cotticoffee\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
 ^https?:\/\/gateway\.shouqiev\.com(:8443)?/fsda/app/bootImage\.json url reject
@@ -2527,7 +2527,7 @@
 ^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/ url reject
 ^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad url reject
 ^https?:\/\/notify\.baicizhan\.com\/rpc\/notify\/get_latest_notify url reject-200
-^https?:\/\/ntt-app\.benewtech\.cn\/v6\/user\/\d+\/messages\/event reject-dict
+^https?:\/\/ntt-app\.benewtech\.cn\/v6\/user\/\d+\/messages\/event url reject-dict
 ^https?:\/\/oauth\.secure\.pixiv\.net\/(auth\/token) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pixivAds.js
 ^https?:\/\/obs\.line-scdn\.net\/0h.+\/(o|m)\d+x\d+$ url reject
 ^https?:\/\/obs\.line-scdn\.net\/0h.+\/\d+p\.mp4$ url reject
@@ -2930,6 +2930,7 @@
 ^https?:\/\/tcmobileapi\.17usoft\.com\/appindexnew\/index\/openscreen url reject-dict
 ^https?:\/\/td\.cgmcare\.cn\/api\/ad url reject-200
 ^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*/builds/\d*/install url request-body storefrontId" : ".*" request-body storefrontId" : "143441-1,29"
+^https?:\/\/testflight\.apple\.com\/v2\/accounts\/.*\/apps\/\d*\/builds\/\d*\/install$ url request-body "storefrontId"\x20:\x20.*, request-body "storefrontId":"143441-19,29",
 ^https?:\/\/tfsmy\.chengdu\.gov\.cn\/api\/v5\/core\/version url reject-200
 ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd url response-body officialAdvertResultVo response-body ddgksf2013
 ^https?:\/\/tft-app\.cdtft\.cn\/gateway-customer\/tftapp\/tft-ams\/api\/appAd url response-body officialAdvertResultVo response-body random-response
@@ -3137,7 +3138,7 @@
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d\/ads\/resource|v\d\/hey\/\w+\/hey_gallery) url reject-dict
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/(tag\/)?ads url reject-200
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url reject
-^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/(home\/v1\/config\/appInit|s\/v1\/popup\/createCouponPopup) reject
+^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/(home\/v1\/config\/appInit|s\/v1\/popup\/createCouponPopup) url reject
 ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource url reject-200
 ^https?:\/\/www\.xvideos\.com\/(?!(.*(api|my|cdn-cgi|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.ymm56\.com\/short-distance-match-app\/openAppAd url reject-dict
