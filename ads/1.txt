@@ -1,5 +1,5 @@
-# Total line 3263
-# Last updated Sat 01/25/2025 22:17:49.58
+# Total line 3264
+# Last updated Tue 01/28/2025 22:17:17.10
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1099,7 +1099,8 @@
 ^https?:\/\/api\.waitwaitpay\.com//api/splash url reject
 ^https?:\/\/api\.wallstcn\.com\/apiv\d\/advertising\/ url reject
 ^https?:\/\/api\.wallstreetcn\.com\/apiv\d\/advertising\/ url reject
-^https?:\/\/api\.weibo\.cn\/!\/was\/finder\/searchbarchange url reject-200
+^https?:\/\/api\.weibo\.cn\/.*\/media_homelist url reject-200
+^https?:\/\/api\.weibo\.cn\/.*finder\/searchbarchange url reject-200
 ^https?:\/\/api\.weibo\.cn\/2\/httpdns\/config url reject
 ^https?:\/\/api\.weibo\.cn\/\d\/!\/huati\/discovery_home_bottom_getdotinfo url reject-dict
 ^https?:\/\/api\.weibo\.cn\/\d\/\w{5}\/(statuses_unread_hot_timeline|timeline) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weibo_json.js
@@ -3126,7 +3127,7 @@
 ^https?:\/\/www\.inoreader\.com/adv/ url reject
 ^https?:\/\/www\.inoreader\.com\/adv\/ url reject
 ^https?:\/\/www\.iyingdi\.cn\/ad url reject-200
-^https?:\/\/www\.javbus\.com\/(?!(.*(cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
+^https?:\/\/www\.javbus\.com\/(?!(.*(cdn-cgi|verify|auth|search|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.javlibrary\.com\/(cn|tw|ja|en)\/(\?v\=jav|vl_|search|star|tl_|public|genre) url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.javlibrary\.com\/img\/.*\.gif url 307 https://www.javlibrary.com/favicon.ico
 ^https?:\/\/www\.kujiale\.com\/app\/queryOpenPage url reject-200
