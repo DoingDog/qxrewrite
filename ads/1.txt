@@ -1,5 +1,5 @@
-# Total line 3232
-# Last updated Wed 03/19/2025 22:19:13.48
+# Total line 3231
+# Last updated Sat 03/22/2025 22:17:26.76
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2822,7 +2822,6 @@
 ^https?:\/\/sports3\.gtimg\.com\/community\/20cf93884470434eaf38b2e77ab7796a\.png url reject
 ^https?:\/\/sq\.sljkj\.com\/api\/sdk\/ads2 url reject
 ^https?:\/\/ss0\.bdstatic\.com/.+?_\d{3}_\d{4}\.jpg url reject-200
-^https?:\/\/ssl\.kohsocialapp\.qq\.com:10001\/game\/buttons url reject-200
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+/game/buttons url reject
 ^https?:\/\/ssl\.kohsocialapp\.qq\.com:\d+\/game\/buttons url reject
 ^https?:\/\/sso.ifanr.com\/jiong\/IOS\/appso\/splash\/ url reject-200
