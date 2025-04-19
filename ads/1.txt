@@ -1,5 +1,5 @@
-# Total line 3250
-# Last updated Wed 04/16/2025 22:19:19.67
+# Total line 3251
+# Last updated Sat 04/19/2025 22:18:38.09
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -533,7 +533,8 @@
 ^https?:\/\/[a-zA-Z0-9_-]+\.weathercn\.com\/(.*bypage|appindexicon) url reject-200
 ^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.adkeyword url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cainiao_json.js
 ^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.app\.e2e\.engine\.page\.fetch url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cainiao_json.js
-^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\. url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.guoguo\.nbnetflow\.ads\.(?!.*_home) url reject-200
+^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.nbcps\.presentation\.fetch\.cn url reject-200
 ^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.homepage\.merge\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cainiao_json.js
 ^https?:\/\/[a-zA-Z0-9_.-]+\.cainiao\.com\/gw\/mtop\.cainiao\.nbpresentation\.protocol\.homepage\.get\.cn url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/cainiao_json.js
 ^https?:\/\/[a-zA-Z0-9_.-]+\.taobao\.com\/gw\/mtop\.alimama\.abyss\.unionpage\.get url reject-200
