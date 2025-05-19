@@ -1,12 +1,15 @@
-# Total line 30
-# Last updated Fri 05/16/2025 22:20:08.16
+# Total line 46
+# Last updated Mon 05/19/2025 22:20:34.76
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
 (\/Videos\/\d+\/stream\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/.+&filename) url script-response-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_file_rename.js
 \/Videos\/\d+\/stream\/.+\?.+ url script-request-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_path_rename.js
 ^https?:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CamscannerProCrack.js
+^https?:\/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
+^https?:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
+^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 ^https?:\/\/.*aoscdn\.com\/base\/vip\/v\d\/vips url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/ApowersoftProCrack.js
 ^https?:\/\/.*appraven\.net\/appraven\/graphql url script-response-body https://gist.githubusercontent.com/ddgksf2013/562f8fd6a40be92d7c8b358aa25eab3f/raw/appraven.vip.js
 ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FocosProCrack.js
@@ -17,19 +20,32 @@
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/JianXunProCrack.js
 ^https?:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
 ^https?:\/\/app\.yiyan\.art\/yiyan\/ url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/YiYanProCrack.js
+^https?:\/\/boxjs\.(com|net) url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
 ^https?:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/ClarityProCrack.js
 ^https?:\/\/explorer\.tratao\.com\/api\/client\/xtool\/vip url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/JiJianHuiLvProCrack.js
 ^https?:\/\/ipadcms.caixin.com/tmp/articles url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CaiXinZhouKanProCrack.js
 ^https?:\/\/lchttpapi.xczim.com/* url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/XiChuangZhuProCrack.js
+^https?:\/\/m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js
+^https?:\/\/m.douban.com/movie/subject/.+\?seen=\d url script-request-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js 
+^https?:\/\/m\.douban\.com\/movie\/subject\/\d+\/ url script-response-body https://raw.githubusercontent.com/I-am-R-E/QuantumultX/main/JavaScript/DouBan.js
 ^https?:\/\/mb3admin.com\/admin\/service\/registration\/validateDevice url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/unlock.js
 ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|\w{9}) url script-echo-response https://raw.githubusercontent.com/ddgksf2013/dev/main/flightradar24.js
 ^https?:\/\/nicegram\.cloud\/api\/v\d\/(ai-assistant\/purchase-list|user\/info|telegram\/auth) url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/NicegramProCrack.js
+^https?:\/\/restore-access\.indream\.app\/restoreAccess url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/Nicegram.js
 ^https?:\/\/server\.zbisq\.com\/fimo-user url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FimoProCrack.js
+^https?:\/\/setting.youtube.com\/\?action=(g|s)et url script-analyze-echo-response https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
 ^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-json.js
 ^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
+^https?:\/\/spclient\.wg\.spotify\.com\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-proto.js
+^https?:\/\/spclient\.wg\.spotify\.com\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-qx-header.js
+^https?:\/\/sub\.store url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-0.min.js
+^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))) url script-analyze-echo-response https://github.com/sub-store-org/Sub-Store/releases/latest/download/sub-store-1.min.js
+^https?:\/\/testflight\.apple\.com\/v\d\/(app|account|invite)s\/ url script-analyze-echo-response https://raw.githubusercontent.com/NobyDa/Script/master/TestFlight/TestFlightAccount.js
 ^https?:\/\/upos-hz-mirrorakam\.akamaized\.net\/(.*) url 302 https://upos-sz-mirrorcos.bilivideo.com/$1
 ^https?:\/\/wallpaper\.soutushenqi\.com\/api\/v1\/account\/token url response-body vipType": 0 response-body vipType": 1024
+^https?:\/\/www.youtube.com\/api\/timedtext.+ url script-response-body https://raw.githubusercontent.com/Neurogram-R/Quantumult-X/main/Dualsub.js
 ^https?:\/\/www\.bing\.com\/(search|new|chat) Macintosh url-and-header request-header (\r\n)(User-Agent:.+)Version.+(\r\n) request-header $1$2 Chrome/113.0.0.0 Safari/605.1.15 Edg/113.0.1739.0$3
 ^https?:\/\/www\.bing\.com\/(search|new|chat) url request-header (\r\n)(User-Agent:.+Mobile.+)(\r\n) request-header $1$2 EdgiOS/113.0.1739.0$3
 
-hostname=*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.mb3admin.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.xiuxiu.meitu.com,*.yangjibao.com,*appraven.net,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.xiuxiu.meitu.com,api4.bybutter.com,app.yiyan.art,claritywallpaper.com,explorer.tratao.com,gateway.caixin.com,ipadcms.caixin.com,lchttpapi.xczim.com,mobile.flightradar24.com,nicegram.cloud,notability.com,server.zbisq.com,spclient.wg.spotify.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,www.bing.com,
+hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.mb3admin.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*appraven.net,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,m.douban.com,mapi.weibo.com,mobile.flightradar24.com,nicegram.cloud,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,weixin110.qq.com,www.bing.com,
