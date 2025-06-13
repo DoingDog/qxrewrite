@@ -1,5 +1,5 @@
 # Total line 3321
-# Last updated Tue 06/10/2025 22:20:36.01
+# Last updated Fri 06/13/2025 22:20:38.81
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2198,8 +2198,8 @@
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/0[4-9]{1}\/.*.jpg url reject-200
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/2022\/1[0-2]{1}\/.*.jpg url reject-200
 ^https?:\/\/l[0-9]{1}\.51fanli\.net\/app\/images\/splash\/202\d{1}\/\d{2}\/.*.jpg url reject-200
-^https?:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/home url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lawson.js
-^https?:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/mina\/systemSetting url reject-dict
+^https?:\/\/lawsonapi\.yorentown\.com\/area\/sh-lawson\/app\/v1\/ url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lawson.js
+^https?:\/\/lawsonapi\.yorentown\.com\/portal\/app\/globalLaunch\/listAdvert url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/lawson.js
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/(getAdvList|prefetchAdvList)\.ah url reject-200
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/getAdvList\.ah$ url reject
 ^https?:\/\/lban\.spdb\.com\.cn\/mspmk-web-component\/getAdvertisementList\.ah url reject
