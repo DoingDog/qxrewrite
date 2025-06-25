@@ -1,5 +1,5 @@
 # Total line 46
-# Last updated Sun 06/22/2025 22:19:47.97
+# Last updated Wed 06/25/2025 22:20:47.58
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
@@ -15,9 +15,9 @@
 ^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FocosProCrack.js
 ^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/TopwidgetsProCrack.js
 ^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/YangJiBaoProCrack.js
-^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:443)?\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-json.js
-^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:443)?\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-proto.js
-^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:443)?\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-qx-header.js
+^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:\d+)?\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-json.js
+^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:\d+)?\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-proto.js
+^https?:\/\/[a-zA-Z0-9_-]+\.wg\.spotify\.com(:\d+)?\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/refs/heads/master/js/spotify-qx-header.js
 ^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/BybutterProCrack.js
 ^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/PicsartProCrack.js
 ^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/JianXunProCrack.js
