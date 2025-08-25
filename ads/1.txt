@@ -1,5 +1,5 @@
-# Total line 3322
-# Last updated Sat 08/23/2025  6:23:38.36
+# Total line 3323
+# Last updated Mon 08/25/2025 22:20:29.09
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1990,6 +1990,7 @@
 ^https?:\/\/hkj178\.com\/wp\-json\/mp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/home\.mi\.com/cgi-op/api/v\d/recommendation/(banner|myTab|openingBanner) url reject-dict
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) url reject-dict
+^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/resource\/realtime\/openingBanner url reject-dict
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation url reject-200
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v\d\/recommendation\/banner url reject
 ^https?:\/\/homefront.qunar.com/front/splash/ad url reject-200
