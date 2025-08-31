@@ -1,5 +1,5 @@
-# Total line 3326
-# Last updated Thu 08/28/2025 22:19:24.91
+# Total line 3327
+# Last updated Sun 08/31/2025 22:18:55.55
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -3323,6 +3323,7 @@ hltv-tracking\.js url reject
 host, adstrategy.biz.weibo.com, reject
 host, sdkapp.uve.weibo.com, direct
 host-suffix, api.touch-moblie.com, reject
+host-suffix, optimus-ads.amap.com, direct
 jbnnr_huath_2.js url reject
 jbnnr_mmdaohang_2.js url reject
 jbnnr_yueyupp_3.js url reject
