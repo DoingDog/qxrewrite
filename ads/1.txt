@@ -1,5 +1,5 @@
-# Total line 3327
-# Last updated Sun 08/31/2025 22:18:55.55
+# Total line 3322
+# Last updated Mon 09/01/2025 22:18:51.76
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1155,7 +1155,6 @@
 ^https?:\/\/api\.weibo\.cn\/\d\/profile\/recommend_popuser url reject-dict
 ^https?:\/\/api\.weibo\.cn\/\d\/push\/info url reject-200
 ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/container_positive url reject-200
-^https?:\/\/api\.weibo\.cn\/\d\/ug\/checkin\/stream url jsonjq-response-body '.items |= map(select(.category != "card"))'
 ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/api\.weibo\.cn\/httpdns\/config url reject
 ^https?:\/\/api\.wfdata\.club\/v2\/yesfeng\/(infoCenterAd|yesList) url reject-200
@@ -3320,10 +3319,6 @@ app_name=super&([\S]*)aid=\d+ url 307 app_name=super_pro&$1aid=1412
 bnnr_gojapan url reject
 filemoon\.sx.*/js/baf.js url reject
 hltv-tracking\.js url reject
-host, adstrategy.biz.weibo.com, reject
-host, sdkapp.uve.weibo.com, direct
-host-suffix, api.touch-moblie.com, reject
-host-suffix, optimus-ads.amap.com, direct
 jbnnr_huath_2.js url reject
 jbnnr_mmdaohang_2.js url reject
 jbnnr_yueyupp_3.js url reject
