@@ -1,5 +1,5 @@
-# Total line 3334
-# Last updated Thu 09/04/2025 22:19:09.24
+# Total line 3341
+# Last updated Sun 09/07/2025 22:17:34.18
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -494,7 +494,7 @@
 ^https?:\/\/182\.92\.244\.70\/d\/json url reject-dict
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|verify|auth|captch|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
-^https?:\/\/2025.08.27/c393/v2.0.615 url reject-200
+^https?:\/\/2025.09.06/c393/v2.0.618 url reject-200
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
 ^https?:\/\/203\.209\.245\.158\/squery url reject
@@ -554,7 +554,7 @@
 ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/api\/v\d\/advert url reject
 ^https?:\/\/[a-zA-Z0-9-]+(\.[a-zA-Z0-9-]+){1,3}(:\d+)?\/api\/v\d\/movie\/index_recommend url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/555Ad.js
 ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/.*?\/v\d\/(version$|notice\?|top_notice\?|advert\?position=[^2]+) url reject-200
-^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/amdc\/mobileDispatch url reject-200
+^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/amdc\/mobileDispatch url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amdc.js
 ^https?:\/\/[a-zA-Z0-9_-]+(\.[a-zA-Z0-9_-]+){1,4}(:\d+)?\/api\/v\d\/movie\/index_recommend url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/555Ad.js
 ^https?:\/\/[a-zA-Z0-9_-]+\.admobile.top\/ url reject-200
 ^https?:\/\/[a-zA-Z0-9_-]+\.ranfenghd\.com\/ad url reject-200
@@ -752,6 +752,7 @@
 ^https?:\/\/ads\.closeli\.cn\/ url reject-200
 ^https?:\/\/ads\.iconntech\.com\/resource-delivery\/*\/.*.(jpg|png) url reject-200
 ^https?:\/\/ads\.ishansong\.com\/advert url reject-dict
+^https?:\/\/ads\.ysepay\.com\/ads\/ctrl\/getAdvertisingInfo url reject-dict
 ^https?:\/\/ads\.zhinengxiyifang\.cn\/api\/v1\.1\/ads\/* url reject-200
 ^https?:\/\/adservice\.sigmob\.cn\/extconfig url response-body false response-body true
 ^https?:\/\/adsoss\.zhinengxiyifang\.cn\/ads url reject
@@ -1487,6 +1488,7 @@
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/audit\/home\/getCommonMixData url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/baishitv.js
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject-200
+^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject-dict
 ^https?:\/\/bp-image\.bestv\.com\.cn\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{25}\.jpg url reject-200
 ^https?:\/\/btrace.qq.com url reject-200
 ^https?:\/\/btrace\.qq\.com url reject-200
@@ -1783,11 +1785,13 @@
 ^https?:\/\/ec\.ems\.com\.cn\/mailAd$ url reject
 ^https?:\/\/ecard\.shenzhentong\.com\/wxweb\/bwxppub2\/QryAdvertList\.do url reject-200
 ^https?:\/\/ecloud\.tppension\.cntaiping\.com\/fxtpplatform\/common\/anonymous\/common\/page\/queryStartPageNew\?language=zh-CN url reject-dict
+^https?:\/\/ecssmobile\.e-chinalife\.com:8082\/ecss\/web\/appupdate\/customization\/getFlashScreenInfo url reject-dict
 ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/config\? url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/splash_config url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/user_banner url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/comment\/list url response-body red_id response-body fmz200
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/detailfeed\/preload\? url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/guide\? url reject-dict
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(banner_list|hot_list) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
@@ -2509,6 +2513,7 @@
 ^https?:\/\/mobile\.api\.mgtv\.com\/mobile\/config\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js
 ^https?:\/\/mobile\.api\.mgtv\.com\/v10\/video\/info\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/cnftp.js
 ^https?:\/\/mobile\.api\.mgtv\.com\/v2\/mobile\/checkUpdate\? url reject-dict
+^https?:\/\/mobile\.cebbank\.com\/cebclient\/ClientNoticeList url reject-200
 ^https?:\/\/mobile\.flightradar24\.com\/mobile\/(user-session|subscribe) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/QuantumultX/scripts/Flightradar24.js
 ^https?:\/\/mobile\.yangkeduo\.com\/proxy\/api\/api\/express\/post\/waybill\/red_packet\/goods_list$ url response-body "list":\[.+\] response-body "list":[]
 ^https?:\/\/mobileapi-v6\.elong\.com/adgateway/ url reject
@@ -3198,6 +3203,7 @@
 ^https?:\/\/www\.freeheikeji\.cn\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/www\.freeok\.(vip|pro)(\/$|\/[0-9a-zA-Z=_/-]+\.html$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/adguard.js
 ^https?:\/\/www\.gcores\.com\/gapi\/v1\/app-start-pages\?page url reject-dict
+^https?:\/\/www\.haixue\.com\/advert\/app\/adInfo\/v1\/queryAdByPositionCode url reject-dict
 ^https?:\/\/www\.hpoi\.net\.cn\/api\/item\/startPage url reject-200
 ^https?:\/\/www\.i3zh\.com url response-body cm-pop-up-banners response-body fmz200
 ^https?:\/\/www\.i3zh\.com\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
@@ -3287,6 +3293,7 @@
 ^https?:\/\/y\.gtimg\.cn\/music\/common\/upload\/targeted_ads url reject-img
 ^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 url reject
 ^https?:\/\/yanxuan\.nosdn\.127\.net\/.*\.mp4 url reject-200
+^https?:\/\/yghsh\.cebbank\.com\/static\/picture\/.*.jpg url reject-200
 ^https?:\/\/you\.163\.com/ url 302 https://you.163.com/
 ^https?:\/\/you\.163\.com\/ url 302 https://you.163.com/
 ^https?:\/\/youtubei\.googleapis\.com\/youtubei\/v1\/(browse|next|player|search|reel\/reel_watch_sequence|guide|account\/get_setting|get_watch) url script-response-body https://raw.githubusercontent.com/Maasea/sgmodule/refs/heads/master/Script/Youtube/youtube.response.js
