@@ -1,5 +1,5 @@
-# Total line 3341
-# Last updated Wed 09/10/2025 22:18:57.88
+# Total line 3346
+# Last updated Sat 09/13/2025 22:16:47.01
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -101,8 +101,8 @@
 ^https?:\/\/(ec|c)api\.lkcoffee\.com\/resource\/m\/eorder\/product\/popAppTagProductList url response-body \{.+\} response-body {"status":"SUCCESS"}
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v2\/note\/feed|v3\/note\/videofeed)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v4\/note\/videofeed|v10\/note\/video\/save)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d\/(followfeed|homefeed)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d\/note\/(imagefeed|live_photo\/save) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/(followfeed|homefeed)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/(imagefeed|live_photo\/save) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
 ^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
 ^https?:\/\/(gw|heic)\.alicdn\.com/imgextra/\w{2}/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ url reject-200
@@ -163,7 +163,7 @@
 ^https?:\/\/(s3plus|flowplus)\.meituan\.net\/v\d\/\w+\/linglong\/\w+\.(gif|jpg|mp4) url reject-img
 ^https?:\/\/(sdk|wb)app\.uve\.weibo\.com(/interface/sdk/sdkad.php|/wbapplua/wbpullad.lua) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/(search|searchwsa)\.ximalaya\.com\/hub\/(guideWord|hotWord)V\d\/ url reject-dict
-^https?:\/\/(so|edith)\.xiaohongshu\.com\/api\/sns\/v\d\/search\/notes\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/(so|edith)\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/notes\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(artistview\/v1\/artist|album-entity-view\/v2\/album)\/ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-json.js
 ^https?:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 ^https?:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js
@@ -1789,16 +1789,16 @@
 ^https?:\/\/edit\.sinaapp\.com\/ua\?t=adv url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/config\? url reject-200
 ^https?:\/\/edith\.xiaohongshu\.com/api/sns/v\d/system_service/splash_config url reject-200
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/guide\/user_banner url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/guide\/user_banner url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/detailfeed\/preload\? url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/guide\? url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/widgets url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(banner_list|hot_list) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/search\/(hint|trending)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/surprisebox\/(get_style|open|submit_action) url reject-dict
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
+^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d+\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/comment\/list url response-body red_id response-body fmz200
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/detailfeed\/preload\? url reject-dict
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/guide\? url reject-dict
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/note\/widgets url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(banner_list|hot_list) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/search\/(hint|trending)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/surprisebox\/(get_style|open|submit_action) url reject-dict
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/config\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/edith\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/editor\.sm\.cn\/launch_picture url reject
 ^https?:\/\/elemecdn.com\/.+\/sitemap url reject
 ^https?:\/\/elemecdn.com\/.+\/sitemap url reject-200
@@ -2577,6 +2577,8 @@
 ^https?:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/adplace\/query url reject-dict
 ^https?:\/\/mxsa\.mxbc\.net\/api\/v1\/adinfo\/limitedAds$ url reject-200
 ^https?:\/\/mystore-gw\.watsonsvip\.com\.cn\/gfu\/popup\/advert\/launch url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/watsons.js
+^https?:\/\/myusmile\.online\/user\/version\/requestAppUpdate url reject-dict
+^https?:\/\/myusmile\.online\/user\/version\/requestFirmwareUpdate\/ url reject
 ^https?:\/\/nam\.veta\.naver\.com/gfp/v1\?u\=ios_papago_top url reject
 ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js
 ^https?:\/\/napi\.ithome\.com\/api\/news\/indexv\d\/iphone url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ithome.js
@@ -3160,6 +3162,7 @@
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=open_app url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=search_topic url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/weibointl\.api\.weibo\.cn\/portal\.php\?a=user_center url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
+^https?:\/\/wemallh5\.usmile\.com\/api\/sp-portal\/store\/usmile\/activity\/dayCheck\?pop url reject-dict
 ^https?:\/\/wmapi\.meituan\.com/api/v\d/startpicture url reject
 ^https?:\/\/wmapi\.meituan\.com\/api\/v7\/(loadInfo|openscreen|startpicture)\? url reject-dict
 ^https?:\/\/wmapi\.meituan\.com\/api\/v7\/startpicture url reject-200
@@ -3218,6 +3221,8 @@
 ^https?:\/\/www\.laoguikeji\.cn\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\? url reject
 ^https?:\/\/www\.meituan\.com\/api\/v\d\/appstatus\?ad url reject
+^https?:\/\/www\.myusmile\.online\/user\/plaqueTopic\/selectByType url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/usmile.js
+^https?:\/\/www\.myusmile\.online\/user\/userTagRecord\/popup url reject
 ^https?:\/\/www\.nfmovies\.com\/pic\/tu\/ url reject-img
 ^https?:\/\/www\.nfmovies\.com\/templets\/default\/images\/logos url reject-img
 ^https?:\/\/www\.nfmovies\.com\/uploads\/images\/play\.jpg url reject-img
@@ -3234,7 +3239,7 @@
 ^https?:\/\/www\.wnacg\.com\/(?!(.*(onclick|cdn-cgi|verify|auth|captch|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|m3u8|mp4|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/www\.xiaohongshu\.com/api/sns/v\d/(tag/)?ads url reject-200
 ^https?:\/\/www\.xiaohongshu\.com\/api\/marketing\/box\/trigger\? url reject-dict
-^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d\/ads\/resource|v\d\/hey\/\w+\/hey_gallery) url reject-dict
+^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/(v\d+\/ads\/resource|v\d+\/hey\/\w+\/hey_gallery) url reject-dict
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config url reject
 ^https?:\/\/www\.xiaoxiongmeishu\.com\/api\/(home\/v1\/config\/appInit|s\/v1\/popup\/createCouponPopup) url reject
 ^https?:\/\/www\.xqpark\.cn\/xqParkApp\/resource\/getResource url reject-200
