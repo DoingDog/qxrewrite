@@ -1,5 +1,5 @@
 # Total line 3346
-# Last updated Sat 09/13/2025 22:16:47.01
+# Last updated Tue 09/16/2025 22:18:22.47
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -510,8 +510,6 @@
 ^https?:\/\/2402:4e00:1411:201:0:9964:ba21:5a41\/d - reject
 ^https?:\/\/240c:409f::3:0:163\/d - reject
 ^https?:\/\/240c:409f::3:0:359\/d - reject
-^https?:\/\/39\.98\.135\.211\/admin\/filter\/advert\/getAdvertLists url reject-dict
-^https?:\/\/39\.98\.135\.211\/admin\/filter\/crowdFunding\/getNewProductData url reject-dict
 ^https?:\/\/3g\.csair\.com\/CSMBP\/bookProcess\/homepopup\/queryAdvertisement url reject-200
 ^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/app\/activity\/ url reject-200
 ^https?:\/\/3gimg\.qq\.com\/tencentMapTouch\/splash\/ url reject-200
@@ -1094,7 +1092,6 @@
 ^https?:\/\/api\.nj\.nbtv\.cn\/v\d\/common\/system-boot-inform\/detail url reject-200
 ^https?:\/\/api\.petkit\.cn\/6\/\/device\/relatedProductsInfo url reject-dict
 ^https?:\/\/api\.pinduoduo\.com\/api\/aquarius\/hungary\/global\/homepage\? url reject-dict
-^https?:\/\/api\.pinduoduo\.com\/api\/ktt_gateway\/activity\/feeds\/personal_home_page\/ url reject
 ^https?:\/\/api\.psy-1\.com\/cosleep\/startup url reject
 ^https?:\/\/api\.qbb6\.com/ad/ url reject
 ^https?:\/\/api\.qbb6\.com\/ad\/ url reject
@@ -1159,6 +1156,7 @@
 ^https?:\/\/api\.weibo\.cn\/\d\/groups\/allgroups\/v\d url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/api\.weibo\.cn\/\d\/profile\/recommend_popuser url reject-dict
 ^https?:\/\/api\.weibo\.cn\/\d\/push\/info url reject-200
+^https?:\/\/api\.weibo\.cn\/\d\/statuses\/container_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/api\.weibo\.cn\/\d\/statuses\/container_positive url reject-200
 ^https?:\/\/api\.weibo\.cn\/\d\/video\/tiny_stream_mid_detail url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/api\.weibo\.cn\/httpdns\/config url reject
@@ -1997,6 +1995,8 @@
 ^https?:\/\/hkextshort\.weixin\.qq\.com\/cgi-bin\/micromsg-bin\/getcdndns url reject
 ^https?:\/\/hkj178.com/wp-json/mp/v2/advert/wechat url reject-200
 ^https?:\/\/hkj178\.com\/wp\-json\/mp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
+^https?:\/\/hmbaby\.simshine\.cn\/admin\/filter\/advert\/getAdvertLists url reject-dict
+^https?:\/\/hmbaby\.simshine\.cn\/admin\/filter\/crowdFunding\/getNewProductData url reject-dict
 ^https?:\/\/hoapp\.juneyaoair\.com\/data\/index\/getLoadPic url reject-200
 ^https?:\/\/home\.mi\.com/cgi-op/api/v\d/recommendation/(banner|myTab|openingBanner) url reject-dict
 ^https?:\/\/home\.mi\.com\/cgi-op\/api\/v1\/recommendation\/(banner|carousel\/banners|myTab|openingBanner) url reject-dict
@@ -2280,7 +2280,7 @@
 ^https?:\/\/m5\.amap\.com\/ws\/shield\/dsp\/app\/startup\/init\? url reject-dict
 ^https?:\/\/m5\.amap\.com\/ws\/valueadded\/ url reject
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d/push/daily url reject-dict
-^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|comments/build_comments|container/get_item) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
+^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(checkin/show|\!/live/media_homelist|container/get_item) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/(searchall|page\?|0flowpage) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/\w{5}\/cardlist url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/m?api\.weibo\.c(n|om)\/\d\/ad\/weibointl\? url reject-dict
