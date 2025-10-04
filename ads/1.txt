@@ -1,5 +1,5 @@
-# Total line 3367
-# Last updated Wed 10/01/2025 22:18:52.28
+# Total line 3366
+# Last updated Sat 10/04/2025 22:17:47.73
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -774,6 +774,7 @@
 ^https?:\/\/als\.baidu\.com\/clog\/clog url reject
 ^https?:\/\/alt-r\.my\.com\/mobile url reject-dict
 ^https?:\/\/amap-aos-info-nogw\.amap\.com/ws/aos/alimama/ url reject-200
+^https?:\/\/amap-aos-info-nogw\.amap\.com\/ws\/aos\/alimama\/splash_screen_rt url reject
 ^https?:\/\/amdc-sibling\.alipay\.com\.cn\/s?query url reject
 ^https?:\/\/amdc\.alipay\.com\/s?query url reject
 ^https?:\/\/amdc\.m\.taobao\.com url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/amdc.js
@@ -1486,10 +1487,8 @@
 ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/preload url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/weibo_json.js
 ^https?:\/\/boot.*weibo\.com\/v\d\/ad\/realtime url reject-200
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/audit\/home\/getCommonMixData url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/baishitv.js
-^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject-200
 ^https?:\/\/bp-api\.bestv\.com\.cn\/cms\/api\/free\/open\/advertisingV2 url reject-dict
-^https?:\/\/bp-image\.bestv\.com\.cn\/[a-zA-Z0-9]{8}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{4}-[a-zA-Z0-9]{25}\.jpg url reject-200
 ^https?:\/\/btrace.qq.com url reject-200
 ^https?:\/\/btrace\.qq\.com url reject-200
 ^https?:\/\/business\.msstatic\.com/advertiser/ url reject
@@ -2665,8 +2664,8 @@
 ^https?:\/\/open\.xueqiu\.com\/mpaas\/config\/content\?.+home_visitor_relation_config url reject-dict
 ^https?:\/\/openapi\.boc\.cn\/unlogin\/app\/cbsp\/query_ad_list url reject-200
 ^https?:\/\/operationapi\.fosunhanig\.com\/ad\/v\d\/(PopupAdList|ScreenAdList|BannerList) url reject-200
-^https?:\/\/optimus-ads.amap.com/uploadimg/[a-zA-Z0-9]+.gif url reject-200
 ^https?:\/\/optimus-ads\.amap\.com/uploadimg/[a-zA-Z0-9]+\.gif url reject-200
+^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/[a-zA-Z0-9]+.gif url reject-200
 ^https?:\/\/oral\.youdao\.com\/oral\/adInfo url reject-img
 ^https?:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ url reject-dict
 ^https?:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity url reject-dict
