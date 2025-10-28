@@ -1,5 +1,5 @@
-# Total line 3369
-# Last updated Sat 10/25/2025 22:18:04.57
+# Total line 3370
+# Last updated Tue 10/28/2025 22:20:44.35
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -3312,6 +3312,7 @@
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/client\/urban\/activity\/index\/data\?agentId=12 url reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_big_module_bottom_ad url reject
 ^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/get_index_activity_list_ad url reject
+^https?:\/\/xxyx-client-api\.xiaoxiaoyouxuan\.com\/new_banner\? url reject
 ^https?:\/\/xyst\.yuanfudao\.com\/iphone\/splashesV\d url reject-200
 ^https?:\/\/xyz\.cnki\.net\/resourcev7\/api\/manualpush\/SlidsList$ url reject-200
 ^https?:\/\/y\.gtimg\.cn\/music\/.*?_Ad/\d+\.png url reject-img
