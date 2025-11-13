@@ -1,5 +1,5 @@
-# Total line 3374
-# Last updated Mon 11/10/2025 22:21:18.56
+# Total line 3372
+# Last updated Thu 11/13/2025 22:21:51.34
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -14,9 +14,7 @@
 ^(http:\/\/www\.vgtime\.com\/app\/topic\/\d+\.jhtml\?.*?&close_ad=)false(&page=\d&sign=\w+&timestamp=\d+&font_size=\d$) url 302 $1true$2
 ^(https?://)?([a-zA-Z0-9]+(-[a-zA-Z0-9]+)*\.)+[a-zA-Z]{2,}(:\d+)?/wp-json/[a-zA-Z0-9_-]+/(mp\/)?v\d/posts url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/applet.js
 ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
-^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/(c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)$|tiebaads\/commonbatch|c\/s\/sync$) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
 ^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
-^http(s:\/\/tiebac|:\/\/c\.tieba)\.baidu\.com\/c\/f\/(frs\/(page|threadlist|generalTabList)|pb\/page|excellent\/personalized)\?cmd url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
 ^http[s]?:\/\/.*\/v2\/resolv\?host\=api\.zhihu\.com url reject
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/launch_v2 url reject-dict
 ^http[s]?:\/\/api\.zhihu\.com\/commercial_api\/real_time_launch_v2 url reject-dict
@@ -2339,7 +2337,7 @@
 ^https?:\/\/m\.lkcoffee\.com\/ecapi\/resource\/m\/member\/exchange\/page url response-body \{.+\} response-body {"status":"SUCCESS"}
 ^https?:\/\/m\.meitun\.com\/newapi\/router\/topic\/hometptf\/feedRecommend url reject-200
 ^https?:\/\/m\.msyc\.cc\/app\/getBootPage\/v\d url reject-200
-^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open url reject-img
+^https?:\/\/m\.mynj\.cn:\d+\/znmh_FEP\/loadpic\.jsp.*ad_pic.*open url reject
 ^https?:\/\/m\.prod\.app\.hsbcfts\.com\.cn\/api\/sapp\/biz\/config\/open\/queryappversion\?channelCode= url reject-dict
 ^https?:\/\/m\.pvp\.xoyo\.com\/conf\/server-mapping url reject-dict
 ^https?:\/\/m\.qianbao\.qq\.com\/pages\/walletHome\?invisible url reject
