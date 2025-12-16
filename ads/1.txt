@@ -1,5 +1,5 @@
 # Total line 3381
-# Last updated Sat 12/13/2025 22:21:02.03
+# Last updated Tue 12/16/2025 22:21:45.10
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1887,7 +1887,6 @@
 ^https?:\/\/gateway-api\.dushu365\.com\/chief-orch\/config\/config\/v100\/appConfig url reject-200
 ^https?:\/\/gateway-mobile-gray\.soulapp\.cn\/mobile\/app\/version\/queryIos url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/soul/soul_ads.js
 ^https?:\/\/gateway2\.etnet\.com\.hk\/etnetApp\/theme\/seasonal\/v30\/theme.json url reject-200
-^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show url reject
 ^https?:\/\/gateway\.36kr\.com\/api\/adx\/ad\/show url reject-200
 ^https?:\/\/gateway\.abite\.com/cotti-capi/customer/position/list\?code=cotti-launch-window url reject-dict
 ^https?:\/\/gateway\.abite\.com\/cotti-capi\/customer\/position\/list\?code=cotti-launch-window url reject-200
@@ -2285,6 +2284,7 @@
 ^https?:\/\/m-adphone\.wenhua\.com\.cn\/ url reject-200
 ^https?:\/\/m-cloud\.zhihu\.com\/api\/cloud\/config\/all\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/zhihu/zhihu.js
 ^https?:\/\/m.360buyimg\.com\/mobilecms\/s1125x2436_jfs\/ url reject-200
+^https?:\/\/m.diyibanzhu.me/js/js4.js url reject
 ^https?:\/\/m.ibuscloud.com\/v2\/app\/getStartPage url reject-200
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22/22400\/119193\/62562ef0Eff59b4d4 url reject
 ^https?:\/\/m15\.360buyimg\.com\/mobilecms\/jfs\/t1\/197429\/22\/22400\/119193\/62562ef0Eff59b4d4 url reject
