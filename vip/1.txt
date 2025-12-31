@@ -1,11 +1,10 @@
-# Total line 37
-# Last updated Sun 12/28/2025 22:22:27.23
+# Total line 29
+# Last updated Wed 12/31/2025 22:23:16.92
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
 (\/Videos\/\d+\/stream\?.+&filename)|(\/Videos\/\d+\/\w{32}\/Subtitles\/.+&filename) url script-response-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_file_rename.js
 \/Videos\/\d+\/stream\/.+\?.+ url script-request-header https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/download_path_rename.js
-^https?:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CamscannerProCrack.js
 ^https?:\/\/(cn|www)\.pornhub\.com\/($|(view|video).*$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/pornhub.js
 ^https?:\/\/(cn|www)\.pornhub\.com\/_xa\/ads url reject-dict
 ^https?:\/\/(h5|api)\.xiuxiu\.meitu\.com\/v\d\/(h\d\/vip|vip|user)\/ url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MeiTu.js
@@ -13,15 +12,8 @@
 ^https?:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/(bootstrap\/v1\/bootstrap|user-customization-service\/v1\/customize)$ url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-proto.js
 ^https?:\/\/(spclient\.wg\.spotify\.com|.*-spclient\.spotify\.com(:443)?)\/user-customization-service\/v1\/customize$ url script-request-header https://raw.githubusercontent.com/app2smile/rules/master/js/spotify-qx-header.js
 ^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
-^https?:\/\/.*oracle\.bendingspoonsapps\.com\/v\d\/(users\/setup|purchases\/verify\/apple) url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/FocosProCrack.js
-^https?:\/\/.*xiaozujian\.com\/api\/app\/config\/userConfig url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/TopwidgetsProCrack.js
-^https?:\/\/.*yangjibao\.com\/(wxapi\/)?account url script-response-body https://raw.githubusercontent.com/ddgksf2013/MoYu/master/YangJiBaoProCrack.js
-^https?:\/\/api4\.bybutter\.com\/v4\/(users\/me$|shop\/me\/privileges$) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/BybutterProCrack.js
-^https?:\/\/api\.meiease\.cn\/shop\/subscription\/validate url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/PicsartProCrack.js
-^https?:\/\/api\.tipsoon\.com\/api\/v1\/user\/info url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/JianXunProCrack.js
 ^https?:\/\/api\.xiuxiu\.meitu\.com\/v1 url script-response-body https://raw.githubusercontent.com/Moli-X/Resources/main/Script/MTxiuxiu/MTxiuxiu.js
 ^https?:\/\/boxjs\.(com|net) url script-analyze-echo-response https://raw.githubusercontent.com/chavyleung/scripts/master/box/chavy.boxjs.js
-^https?:\/\/claritywallpaper\.com\/clarity\/api\/(userInfo|special\/queryByCatalogAll|picture\/search|catalog\/listAll|top\/list|picture\/date\?date) url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/ClarityProCrack.js
 ^https?:\/\/ipadcms.caixin.com/tmp/articles url script-response-body https://raw.githubusercontent.com/ddgksf2013/dev/main/CaiXinZhouKanProCrack.js
 ^https?:\/\/m.douban.com/movie/subject/.+ url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js
 ^https?:\/\/m.douban.com/movie/subject/.+\?seen=\d url script-request-header https://raw.githubusercontent.com/ddgksf2013/Scripts/master/douban.js 
@@ -39,4 +31,4 @@
 ^https?:\/\/www\.bing\.com\/(search|new|chat) Macintosh url-and-header request-header (\r\n)(User-Agent:.+)Version.+(\r\n) request-header $1$2 Chrome/113.0.0.0 Safari/605.1.15 Edg/113.0.1739.0$3
 ^https?:\/\/www\.bing\.com\/(search|new|chat) url request-header (\r\n)(User-Agent:.+Mobile.+)(\r\n) request-header $1$2 EdgiOS/113.0.1739.0$3
 
-hostname=%APPEND%youtubei.googleapis.com,*.aoscdn.com,*.emby.wtf,*.jmsooo.com,*.mb3admin.com,*.oracle.bendingspoonsapps.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.yangjibao.com,*.youtube.com,*appraven.net,*spclient.spotify.com,*wps*,*xiaozujian,ap*.intsig.net,api.meiease.cn,api.tipsoon.com,api.weibo.cn,api.xiuxiu.meitu.com,api4.bybutter.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,app.yiyan.art,appwk.baidu.com,boxes.net,boxjs.com,claritywallpaper.com,cn-acs.m.cainiao.com,cupfox.app,explorer.tratao.com,gateway.caixin.com,guide-acs.m.taobao.com,ipadcms.caixin.com,lchttpapi.xczim.com,m.douban.com,mapi.weibo.com,mobile.flightradar24.com,nicegram.cloud,notability.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,server.zbisq.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,ticktick.com,upos-hz-mirrorakam.akamaized.net,wallpaper.soutushenqi.com,weixin110.qq.com,www.bing.com,
+hostname=%APPEND%youtubei.googleapis.com,*.emby.wtf,*.jmsooo.com,*.mb3admin.com,*.plusmedia.site,*.pornhub.com,*.uve.weibo.com,*.xiuxiu.meitu.com,*.youtube.com,*spclient.spotify.com,*wps*,ap*.intsig.net,api.weibo.cn,api.xiuxiu.meitu.com,app.biliapi.net,app.bilibili.com,app.biliintl.com,appwk.baidu.com,boxes.net,boxjs.com,cn-acs.m.cainiao.com,cupfox.app,guide-acs.m.taobao.com,ipadcms.caixin.com,m.douban.com,mapi.weibo.com,pan.baidu.com,restore-access.indream.app,security.wechat.com,spclient.wg.spotify.com,sub.store,testflight.apple.com,upos-hz-mirrorakam.akamaized.net,weixin110.qq.com,www.bing.com,
