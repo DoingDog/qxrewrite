@@ -1,5 +1,5 @@
-# Total line 3351
-# Last updated Sat 01/10/2026 22:22:34.37
+# Total line 3349
+# Last updated Tue 01/13/2026 22:25:26.93
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -3094,7 +3094,6 @@
 ^https?:\/\/user-api\.smzdm\.com\/vip\/creator_user_center url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/smzdm/smzdm_ads.js
 ^https?:\/\/user\.(aliyundrive|alipan)\.com\/v2\/user\/get url script-response-body https://gist.githubusercontent.com/ddgksf2013/f4752e632fd3375ea2811985c5b635dc/raw/alicloud.js
 ^https?:\/\/user\.api\.ddxq\.mobi\/userportal-service\/api\/v\d\/user\/queryMyPage url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ddxq.js
-^https?:\/\/userapi.feidee.net/v1/profile/basic_info url script-response-body https://royal-block-f6b1.q00.workers.dev/scripts/suishouji.ads.js
 ^https?:\/\/userpms-api\.suh\.cn\/apt\/api\/bannar\/PageList\?sysSearchKey=sysPat&showSearchKey=advertising&pageIndex=1&pagesize=100&lanSearchValue=1&locationSearchKey=&status=1& url reject-dict
 ^https?:\/\/ut2\.shuqistat\.com\/.+\.gif url reject
 ^https?:\/\/uts-front\.line-apps\.com\/event$ url reject
@@ -3310,7 +3309,6 @@
 ^https?:\/\/ytmsout\.radio\.cn\/publish\/recScreen\/getLoadPage url reject-200
 ^https?:\/\/yun.feidee.net/cab-draw-activity-ws/terminal/v1/draw-record/user-draw-result url reject-dict
 ^https?:\/\/yun.feidee.net/cab-query-ws/v1/comet/vtable/score-card url reject-dict
-^https?:\/\/yun.feidee.net/cab-vip-ws/terminal/v1/vip-users/show-info url script-response-body https://royal-block-f6b1.q00.workers.dev/scripts/suishouji.ads.js
 ^https?:\/\/yun\.tuitiger\.com\/mami-media url reject-200
 ^https?:\/\/yunbusiness\.ccb\.com\/(?>basic_service|clp_service)\/txCtrl\?txcode=A3341(?>SB16|C147|MB22|A009|A120|AB03|AB04|A068|A095|AB08) url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/ccblife.js
 ^https?:\/\/yunbusiness\.ccb\.com\/clp_service\/txCtrl\?txcode=A3341A00(2|9) url reject-200
