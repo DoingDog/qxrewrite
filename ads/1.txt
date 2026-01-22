@@ -1,5 +1,5 @@
-# Total line 3349
-# Last updated Mon 01/19/2026 22:24:48.00
+# Total line 3350
+# Last updated Thu 01/22/2026 22:27:19.09
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2027,7 +2027,8 @@
 ^https?:\/\/i\.ys7\.com\/api\/ads\/ url reject-200
 ^https?:\/\/i\.zhaojinapp\.com\/APPAD url reject-200
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes url reject-dict
-^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(jpg|png)$ url reject-200
+^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)$ url reject-200
+^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)@1200w_1500h_1e_1c url reject-200
 ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject-img
 ^https?:\/\/iadmusicmat\.music.126.net\/.*?jpg$ url reject
 ^https?:\/\/iapi\.bishijie\.com\/actopen\/advertising\/ url reject
