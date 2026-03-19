@@ -1,5 +1,5 @@
 # Total line 3348
-# Last updated Mon 03/16/2026 22:37:08.54
+# Last updated Thu 03/19/2026 22:32:21.47
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -482,7 +482,7 @@
 ^https?:\/\/182\.92\.244\.70\/d\/json url reject-dict
 ^https?:\/\/18comic\.(vip|org)\/(?!(.*(onclick|cdn-cgi|verify|auth|captch|\.))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
 ^https?:\/\/1jietu\.com\/apiv\d\/ad url reject-200
-^https?:\/\/2026.03.14/c407/v2.0.636 url reject-200
+^https?:\/\/2026.03.18/c407/v2.0.637 url reject-200
 ^https?:\/\/203\.107\.1\.97\/v url reject
 ^https?:\/\/203\.209\.230\.39\/squery url reject
 ^https?:\/\/203\.209\.245\.102\/squery url reject
@@ -2251,10 +2251,10 @@
 ^https?:\/\/lf-cdn-tos\.bytescm\.com\/obj\/static\/ad\/ url reject
 ^https?:\/\/lf\-cdn\-tos\.bytescm\.com\/obj\/static\/ad url reject
 ^https?:\/\/link\.zhihu\.com\/\?target=(https?)?(%3A|:)?(\/\/|%2F%2F)?(.*?)(&source.*)?$ url 302 http://$4
+^https?:\/\/list-app-m\.i4\.cn.*adinfo\.xhtml url reject-200
 ^https?:\/\/list-app-m\.i4\.cn/getopfstadinfo\.xhtml url reject
 ^https?:\/\/list-app-m\.i4\.cn\/(adclickcb|getHotSearchList|getopfstadinfo)\.xhtml url reject
 ^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject
-^https?:\/\/list-app-m\.i4\.cn\/getopfstadinfo\.xhtml url reject-200
 ^https?:\/\/live-ads\.huya\.com/live/getAllEntrance.*$ url reject-dict
 ^https?:\/\/live\.inst-service\.htsc\.com\/live url reject-dict
 ^https?:\/\/lives\.l\.qq\.com\/livemsg\?sdtfrom= url reject-img
