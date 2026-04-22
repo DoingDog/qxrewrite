@@ -1,5 +1,5 @@
-# Total line 3353
-# Last updated Sun 04/19/2026 22:39:44.94
+# Total line 3356
+# Last updated Wed 04/22/2026 22:51:12.97
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -1863,6 +1863,7 @@
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery url reject-200
 ^https?:\/\/gab\.122\.gov\.cn\/eapp\/m\/sysquery\/adver$ url reject
+^https?:\/\/gae2-spclient\.spotify\.com:443\/ad url reject
 ^https?:\/\/galaxy-app\.geely\.com\/app\/v\d\/advertising url reject-200
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(interfaceAdMonitor|interfaceAd)\/ url reject
 ^https?:\/\/games\.mobileapi\.hupu\.com\/.+?\/(search|interfaceAdMonitor|status|hupuBbsPm)/(hotkey|init|hupuBbsPm)\. url reject-img
@@ -2664,6 +2665,7 @@
 ^https?:\/\/order-app-api\.lbdj\.com\/lbdj\/apporder\/ad\/ url reject-dict
 ^https?:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/activity url reject-dict
 ^https?:\/\/orders\.kfc\.com\.cn\/preorder-portal\/api\/v2\/coupon url reject-dict
+^https?:\/\/oss\.umetrip\.com\/fs\/advert\/polite url reject
 ^https?:\/\/ossgw.alicdn.com\/creatives-assets\/image\/ url reject-200
 ^https?:\/\/ossweb-img\.qq\.com\/upload\/adw\/image\/[0-9]{3}\/202[0-9]{5}\/[a-z0-9]{32}\.(jpg|jpeg) url reject-200
 ^https?:\/\/otheve.beacon.qq.com\/analytics\/upload\?sid=.* url reject
@@ -3330,6 +3332,7 @@
 ^https?:\/\/zgrb\.epicc\.com\.cn\/G-HAPP\/mpageconfig\/myPageConfigList\/v url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/picc/picc_ads.js
 ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/smzdm/smzdm_remove_ads.js
 ^https?:\/\/zhiyou\.m\.smzdm\.com\/user\/vip\/ajax_get_banner url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/smzdm_json.js
+^https?:\/\/zhstatic\.zhihu\.com\/brand-ad url reject
 ^https?:\/\/zhuanlan\.zhihu\.com\/api\/articles\/\d+\/recommendation url reject
 ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) url reject
 ^https?:\/\/zjdr666\.com\/zjdr\.php\/v\d\/(version|top_notice\?|advert\?position=[^2]+) url reject-200
