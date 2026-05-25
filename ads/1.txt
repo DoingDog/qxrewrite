@@ -1,5 +1,5 @@
-# Total line 3369
-# Last updated Fri 05/22/2026 23:02:39.05
+# Total line 3367
+# Last updated Mon 05/25/2026 23:06:47.74
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -183,7 +183,6 @@
 ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/(c\/(s\/sync|f\/(ad\/getSplashAd|frs\/(page|threadlist|generalTabList)|pb\/(pic)?page|excellent\/personalized))$|tiebaads\/commonbatch\?) url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-json.js
 ^https?:\/\/(tiebac|c\.tieba)\.baidu\.com\/c\/(b\/ad\/adBid|f\/(frs\/(page|threadlist|generalTabList)|ad\/getFeedAd|pb\/page|excellent\/personalized))\?cmd url script-response-body https://raw.githubusercontent.com/app2smile/rules/master/js/tieba-proto.js
 ^https?:\/\/(turbovidhls\.com|fc2stream\.tv)\/(?!(.*(api|my|cdn-cgi|verify|auth|captch|account|(\.(js|css|jpg|jpeg|png|webp|gif|zip|woff|woff2|mov|m4v|avi|mkv|flv|rmvb|wmv|rm|asf|asx|mp3|json|ico|otf|ttf))))).* url script-response-body https://raw.githubusercontent.com/limbopro/Adblock4limbo/main/Adguard/Adblock4limbo.js
-^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/master/weixin110.js
 ^https?:\/\/(weixin110\.qq|security.wechat)\.com\/cgi-bin\/mmspamsupport-bin\/newredirectconfirmcgi\? url script-response-body https://raw.githubusercontent.com/zZPiglet/Task/master/asset/UnblockURLinWeChat.js
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)/ url 302 https://macitbetter.com/
 ^https?:\/\/(www.)?(betterzipcn|betterzip)\.(com|net)\/ url 302 https://macitbetter.com/
@@ -2043,7 +2042,6 @@
 ^https?:\/\/i\.ys7\.com\/api\/ads\/ url reject-200
 ^https?:\/\/i\.zhaojinapp\.com\/APPAD url reject-200
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/fawkes url reject-dict
-^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)$ url reject-200
 ^https?:\/\/i\d\.hdslb\.com\/bfs\/manga-static\/\w+\.(?>jpg|png)@1200w_1500h_1e_1c url reject-200
 ^https?:\/\/i\d\.hoopchina\.com\.cn/blogfile\//d+\//d+\/BbsImg\.(?<=(big.(png|jpg)))$ url reject-img
 ^https?:\/\/iadmusicmat\.music.126.net\/.*?jpg$ url reject
