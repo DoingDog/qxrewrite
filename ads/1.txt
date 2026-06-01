@@ -1,5 +1,5 @@
-# Total line 3367
-# Last updated Sun 05/31/2026 23:01:48.30
+# Total line 3368
+# Last updated Mon 06/01/2026 23:37:09.58
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -2601,6 +2601,7 @@
 ^https?:\/\/myusmile\.online\/user\/version\/requestFirmwareUpdate\/ url reject
 ^https?:\/\/nam\.veta\.naver\.com/gfp/v1\?u\=ios_papago_top url reject
 ^https?:\/\/napi\.ithome\.com\/api\/(news\/index|topmenu\/getfeeds) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js
+^https?:\/\/napi\.ithome\.com\/api\/news\/indexv2\/iphone\/927 url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/ithome/ithome.js
 ^https?:\/\/napi\.ithome\.com\/api\/news\/indexv\d\/iphone url script-response-body https://raw.githubusercontent.com/ddgksf2013/Scripts/refs/heads/master/ithome.js
 ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/index\.html url reject
 ^https?:\/\/ndstatic\.cdn\.bcebos\.com\/activity\/welfare\/js\/.+\.js url reject
