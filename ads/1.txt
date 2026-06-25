@@ -1,5 +1,5 @@
 # Total line 3371
-# Last updated Mon 06/22/2026 23:22:06.81
+# Last updated Thu 06/25/2026 23:20:48.61
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ﻿#!name= NoAd
@@ -109,8 +109,8 @@
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/(v4\/note\/videofeed|v10\/note\/video\/save)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/(followfeed|homefeed)\? url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
 ^https?:\/\/(edith|rec|www)\.xiaohongshu\.com\/api\/sns\/v\d+\/note\/(imagefeed|live_photo\/save) url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/xiaohongshu/xiaohongshu.js
-^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
-^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
+^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.home\/ url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
+^https?:\/\/(g-)?acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.nextfresh\/ url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
 ^https?:\/\/(gw|heic)\.alicdn\.com/imgextra/\w{2}/[\w!]+-\d-tps-\d{3,4}-\d{4}\.jpg_(1\d{3}|9\d{2})x(1\d{3}|9\d{2})q\d0\.jpg_\.(heic|webp)$ url reject-200
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/.+\.jpg_(9\d{2}|\d{4}) url reject
 ^https?:\/\/(gw|heic)\.alicdn\.com\/\w{2}s\/[\w\/.-]+\.jpg_(9\d{2}|\d{4}) url reject
@@ -646,14 +646,14 @@
 ^https?:\/\/acs(\.|-)m\.(taobao|freshippo)\.com\/gw\/mtop\.wdk\.sg\.querysinglescene url reject-dict
 ^https?:\/\/acs-m\.freshippo\.com\/gw\/mtop\.wdk\.render\.querysinglepage url reject-200
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop.*splash\.ads url reject-200
-^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.user\.page\.my\.adapter\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.idle\.user\.page\.my\.adapter\/ url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.buy\.feeds url reject-dict
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.item\.resell\.recommendorhotcate\/1\.0 url reject-dict
-^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.flow\.plat\.section url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
-^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.nearby\.itemdetail\.enter\/1\.0 url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.flow\.plat\.section url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.local\.nearby\.itemdetail\.enter\/1\.0 url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idle\.playboy\.recommend\/1\.0 url reject
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlecommerce\.splash\.ads url reject-dict
-^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.circle\.list\/1\.0 url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
+^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.home\.circle\.list\/1\.0 url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlehome\.idle\.coin\.nextfresh\/1\.0 url reject-dict
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.item\.search\.activate\/2\.0 url reject-dict
 ^https?:\/\/acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\.discover\/1\.0 url reject-dict
@@ -1867,7 +1867,7 @@
 ^https?:\/\/fuss10\.elemecdn\.com\/.+\/w\/750\/h\/\d{3,4} url reject
 ^https?:\/\/fuwu\.nhsa\.gov\.cn\/ebus\/fuwu\/api\/base\/cms\/iep\/web\/cms\/hmpgcfg\/queryAppHmpgCfgByApp url reject
 ^https?:\/\/fuwu\.nhsa\.gov\.cn\/ebus\/fuwu\/api\/base\/cms\/iep\/web\/cms\/hmpgcfg\/queryAppHmpgCfgByApp url reject-200
-^https?:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/ url script-response-body https://klraw.pages.dev/kelv1n1n/script/refs/heads/main/js/goofish.js?token=209863
+^https?:\/\/g-acs\.m\.goofish\.com\/gw\/mtop\.taobao\.idlemtopsearch\.search\/ url script-response-body https://raw.githubusercontent.com/ishowshu/qx/refs/heads/main/script/goofish.js
 ^https?:\/\/g1.163.com\/madfeedback url reject
 ^https?:\/\/g\.alicdn\.com\/.*o2o-ad url script-response-body https://raw.githubusercontent.com/zirawell/R-Store/main/Res/Scripts/AntiAd/alicdn.js
 ^https?:\/\/g\.syshhc\.top\/wp\-json\/wp\/v2\/posts url script-response-body https://raw.githubusercontent.com/fmz200/wool_scripts/main/Scripts/applet.js
