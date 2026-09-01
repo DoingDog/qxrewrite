@@ -1,5 +1,5 @@
 # Total line 26
-# Last updated Sat 08/29/2026  3:33:44.07
+# Last updated Tue 09/01/2026  1:03:38.88
 # -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*- -*-
 
 ((\/emby)*\/Users\/\w{32}\/Items\/\d+\?)|((\/emby)*\/Items\/\d+\/Download)|(\/web\/modules\/itemcontextmenu\.js)|(\/web\/item\/item\.js) url script-response-body https://raw.githubusercontent.com/rartv/EmbyPublic/test/quantumult-x/emby.js
